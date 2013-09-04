@@ -1,8 +1,0 @@
-# Results
-
-<<[wholeBrain_results-ongoing_activity.txt]
-
-<<[wholeBrain_results-state_dependence.txt]
-
-<<[wholeBrain_results-hemisphere_corr.txt]
-
