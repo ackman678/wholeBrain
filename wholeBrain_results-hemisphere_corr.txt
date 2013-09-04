@@ -1,0 +1,26 @@
+## Cortical activity is mirrored between the hemispheres ##
+
+* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
+* Activity correlated in anterior-posterior and medial-lateral directions
+* Mirror symmetric and non-mirror symmetric patterns
+* Regional effects, more corr anticorr in certain regions?
+* State dependent corr?
+
+<!--
+* sensory input required or stimulation experiments?
+* Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis?  -->
+
+
+![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)
+![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+
+xy pearson corr coef ML | xy pearson corr coef AP
+--- | ---
+p = 1.1591e-28 | p = 7.0982e-07
+
+![](../figures/Screen_Shot_2013-04-22_at_4.29.28_PM.png) | ![](../figures/Screen_Shot_2013-04-22_at_4.29.24_PM.png)
+
+
+
+**Conclusions:** So the activity in both hemispheres at postnatal day 3 (P3) clearly exhibits significant spatial correlations in  both in the medial-lateral and anterior-extent. This is consistent with and complementary to the fact that the active pixel fraction in each hemisphere exhibits a strong temporal correlation as I found earlier in this report [Temporal correlation of activity][]. The medial-lateral positional correlation is stronger than the anterior-posterior (higher *R* and lower *p* value).   The total number of coactive frames is `numel(y1(~isnan(y1)&~isnan(y2)))` == **1114 frames**. This is accounts to **37.13%** of the movie or **222.8 s**. Cortex.L had 1635 actvFrames and cortex.R had 1677 actvFrames which means that each hemisphere was coactive with the other hemisphere 1114/1635 == **68.13%** and 1114/1677 == **66.43%** of the active time respectively. 

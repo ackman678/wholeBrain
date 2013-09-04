@@ -1,0 +1,16 @@
+# Introduction  
+
+- Activity and development
+- Neural activity, drugs, and birth defects
+	- epilepsy
+	- autism
+- What is the activity?
+     - instructive or permissive?
+     - EEG slow oscillations not detectable until P10 in rodent.
+     - slice work
+     - leinekukel and khazipov work
+     - ucla konnerth imaging work
+     - human occipital cortex and my retinal wave paper
+     - is the activity completely random? Or Is it organized in space and time, and at what scale?
+     - the little that we know is from work in second postnatal week, not earlier, olavarria work, interneuon migration, synaptic formation, and anatomical studies indicates significant development decisions are being made in first postnatal week
+

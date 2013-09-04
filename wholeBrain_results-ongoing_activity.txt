@@ -1,0 +1,52 @@
+## Ongoing activity in the neonatal mouse cerebral cortex is characterized by discrete domains ##
+
+* Cortical column (mini/meso/super columns) history (20th century anatomists). 
+* Column physiology-- Hubel and Wiesel. Rodent V1?
+* Developmental studies-- fetal monkey ODCs. 
+* Rodent barrels (early anatomical emergence from TC input, functional/physiological emergence?). * What is known about columns/domains in secondary/association/non-primary sensory representations? Rest of rodent S1 (non-barrel cortex?). 
+* Calcium domains of Yuste, Science 1992 paper. 
+* Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
+* Calcium imaging-- Konnerth 'waves' in Ent cortex. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- Golshani work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
+
+
+Domains:  
+![](../figures/Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png)
+
+Domain overlay:  
+![](../figures/Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png)
+
+
+Domain stats:  
+
+key | value | unit
+--- | --- | ---
+xmean | 388.6234 | µm
+ymean | 394.9717 | µm
+zmean | 0.63622 | s
+xmax | 3178 | µm
+ymax | 2383.5 | µm
+zmax | 14.6 | s
+xmin | 11.35 | µm
+ymin | 22.7 | µm
+zmin | 0.2 | s
+
+2.8683 domains/sec
+
+
+![](file:///Volumes/Vega/Users/ackman/Data/2photon/120518i/120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440.png)
+
+
+
+Temporal correlation of activity between the hemispheres:  
+![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+
+<!--
+![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
+![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
+-->
+
+
+
+![](../figures/Screen_Shot_2013-04-08_at_8.47.19_AM.png)
+
+
