@@ -7,18 +7,31 @@ The main manuscript file is **[wholeBrain_main.md][]**
 
 
 ## Rationale
-The idea is to provide a clear and beautiful representation of the visualized activity patterns in the developing brain.
+The idea is to provide a clear and beautiful representation of the visualized activity patterns within developing brain in vivo.
 
 ### Scientific importance
 A comprehensive description of the spatiotemporal activity patterns in the immature brain will be crucial to understanding the developmental dynamics that exist between intrinsic and extrinsic factors that regulate circuit development. 
 
 * signature patterns that predict current or future behavior
-* construction of self-organizing circuits (advanced robotics -- *Terminator, Skynet, Cylons*)
+* construction of self-organizing circuits (advanced robotics -- *Terminators, Skynet, & Cylons!*)
 
 ### Human health importance
 * neurodevelopmental disorders (autism, schizophrenia, epilepsy)
 * activity-dependent structural plasticity. Implications for brain repair.
 * development of brain-machine interfaces
+
+### Previous work 
+
+reference                           | FOV info                                                                                                                                                              | figure snapshot                                         
+----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+[Ackman et al][#Ackman:2012]        | 3 x 4 mm FOV WF-MCI in V1, V2, and SC P3-P9 mouse                                                                                                                     | ![](assets/img/Screen_Shot_2013-09-04_at_2.12.16_PM.png)
+[Siegel et al.][#Siegel:2012]       | 219x180 µm FOV 2P-MCI in visual cortex                                                                                                                               | ![](assets/img/Screen_Shot_2013-09-04_at_2.18.49_PM.png)
+[Chiu & Weliky][#Chiu:2001]         | linear MEA covering a 3.2 mm strip across visual cortex Corr activity observed between cortical patches separated by mean distance of 1 mm                            | ![](assets/img/Screen_Shot_2013-09-04_at_2.16.02_PM.png)
+[Colonnese et al.][#Colonnese:2010] | single pulled electrodes in V1 or linear MEA (16 site silcon probe, 4sites x 4shanks, with 200µm separation, 600µm total                                            | ![](assets/img/Screen_Shot_2013-09-04_at_1.54.43_PM.png)
+[Hanganu et al][#Hanganu:2006]      | single electrodes or 4 shank linear MEAs placed in each hemisphere (0.5-1.0mm spacing, for 1.5-3.0mm total)                                                           | ![](assets/img/Screen_Shot_2013-09-04_at_2.36.18_PM.png)
+[Yang et al][#Yang:2012a]           | 2.6 x 2.6 mm FOV, VSD imaging in S1 cortex P0-7 rat. Spont and evoked activity in C2 barrel. 8shank x 4site silicon probe linear MEA (200µm separation, 1.4mm total) | ![](assets/img/Screen_Shot_2013-09-04_at_2.26.32_PM.png)
+[Rochefort et al][#Rochefort:2009]  | 100x70µm FOV 2P-MCI in mouse visual cortex at P11                                                                                                                    | ![](assets/img/Screen_Shot_2013-09-04_at_2.47.37_PM.png)
+
 
 
 ### Future work 
@@ -44,7 +57,7 @@ Instructions for [converting multimarkdown to Word document][id4]
 
 Image processing and dataset generation will utilize custom code in the [wholeBrainDX] software project. 
 
-Datasets, and exploratory data analysis will use R code that lives inside this wholeBrain project repository. Datasets and raw data to big too be inside this git repo will be stored on external servers and linked to accordingly.
+Datasets and R code for exploratory data analysis and graphics will live inside this wholeBrain project repository. Datasets and raw data too big to be inside this git repo will be stored on external servers and linked to accordingly.
 
 
 [wholeBrain_main.md]: wholeBrain_main.md
@@ -56,3 +69,5 @@ Datasets, and exploratory data analysis will use R code that lives inside this w
 [id4]: https://gist.github.com/ackman678/6391902
 
 [wholeBrainDX]: https://github.com/ackman678/wholeBrainDX/blob/master/README.md  
+
+<<[references.txt]

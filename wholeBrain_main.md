@@ -34,3 +34,8 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 
 <<[wholeBrain_results-hemisphere_corr.txt]
 
+
+# References
+
+<<[references.txt]
+

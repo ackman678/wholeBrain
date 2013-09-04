@@ -1,0 +1,243 @@
+# References #
+
+[#Siegel:2012]: Siegel, F., Heimel, J. A., Peters, J., and Lohmann, C. (2012).  Peripheral and central inputs shape network dynamics in the developing visual cortex in vivo, Curr Biol, 22(3), 253-8
+
+[#Ackman:2012]: Ackman, J. B., Burbridge, T. J., and Crair, M. C. (2012).  Retinal waves coordinate patterned activity throughout the developing visual system, Nature, 490(7419), 219-25
+
+[#Xu:2011]: Xu, H.-p., Furman, M., Mineur, Y. S., Chen, H., King, S. L., Zenisek, D., Zhou, Z. J., Butts, D. A., Tian, N., Picciotto, M. R., and Crair, M. C. (2011).  An instructive role for patterned spontaneous retinal activity in mouse visual map development, Neuron, 70(6), 1115-27
+
+[#Zhang:2011]: Zhang, J., Ackman, J. B., Xu, H.-P., and Crair, M. C. (2011).  Visual map development depends on the temporal pattern of binocular activity in mice, Nat Neurosci, 15(2), 298-307
+
+[#Dhande:2011]: Dhande, O. S., Hua, E. W., Guh, E., Yeh, J., Bhatt, S., Zhang, Y., Ruthazer, E. S., Feller, M. B., and Crair, M. C. (2011).  Development of Single Retinofugal Axon Arbors in Normal and beta2 Knock-Out Mice, J Neurosci, 31(9), 3384-99
+
+[#Phillips:2011]: Phillips, M. A., Colonnese, M. T., Goldberg, J., Lewis, L. D., Brown, E. N., and Constantine-Paton, M. (2011).  A synaptic strategy for consolidation of convergent visuotopic maps, Neuron, 71(4), 710-24
+
+[#Mooney:1996]: Mooney, R., Penn, A. A., Gallego, R., and Shatz, C. J. (1996).  Thalamic relay of spontaneous retinal activity prior to vision, Neuron, 17(5), 863-874
+
+[#Hanganu:2006]: Hanganu, I. L., Ben-Ari, Y., and Khazipov, R. (2006).  Retinal waves trigger spindle bursts in the neonatal rat visual cortex, J Neurosci, 26(25), 6728-36
+
+[#Triplett:2009]: Triplett, J. W., Owens, M. T., Yamada, J., Lemke, G., Cang, J., Stryker, M. P., and Feldheim, D. A. (2009).  Retinal input instructs alignment of visual topographic maps, Cell, 139(1), 175-85
+
+[#Duguid:2006]: Duguid, I. and Sjöström, P. J. (2006).  Novel presynaptic mechanisms for coincidence detection in synaptic plasticity, Curr Opin Neurobiol, 16(3), 312-22
+
+[#Bender:2006]: Bender, V. A., Bender, K. J., Brasier, D. J., and Feldman, D. E. (2006).  Two coincidence detectors for spike timing-dependent plasticity in somatosensory cortex, J Neurosci, 26(16), 4166-77
+
+[#Shah:2008]: Shah, R. D. and Crair, M. C. (2008).  Retinocollicular synapse maturation and plasticity are regulated by correlated retinal waves, J Neurosci, 28(1), 292-303
+
+[#Huberman:2006]: Huberman, A. D., Speer, C. M., and Chapman, B. (2006).  Spontaneous retinal activity mediates development of ocular dominance columns and binocular receptive fields in v1, Neuron, 52(2), 247-254
+
+[#Chandrasekaran:2005]: Chandrasekaran, A. R., Plas, D. T., Gonzalez, E., and Crair, M. C. (2005).  Evidence for an instructive role of retinal activity in retinotopic map refinement in the superior colliculus of the mouse, J Neurosci, 25(29), 6929-38
+
+[#Mrsic-Flogel:2005]: Mrsic-Flogel, T. D., Hofer, S. B., Creutzfeldt, C., Cloez-Tayarani, I., Changeux, J.-P., Bonhoeffer, T., and Hubener, M. (2005).  Altered map of visual space in the superior colliculus of mice lacking early retinal waves, J Neurosci, 25(29), 6921--6928
+
+[#Cang:2005]: Cang, J., Rentería, R. C., Kaneko, M., Liu, X., Copenhagen, D. R., and Stryker, M. P. (2005).  Development of precise maps in visual cortex requires patterned spontaneous activity in the retina, Neuron, 48(5), 797-809
+
+[#Grubb:2003]: Grubb, M. S., Rossi, F. M., Changeux, J. P., and Thompson, I. D. (2003).  Abnormal functional organization in the dorsal lateral geniculate nucleus of mice lacking the beta 2 subunit of the nicotinic acetylcholine receptor, Neuron, 40(6), 1161-72
+
+[#McLaughlin:2003]: McLaughlin, T., Torborg, C. L., Feller, M. B., and O'Leary, D. D. M. (2003).  Retinotopic map refinement requires spontaneous retinal waves during a brief critical period of development, Neuron, 40(6), 1147-1160
+
+[#Ziburkus:2009]: Ziburkus, J., Dilger, E. K., Lo, F.-S., and Guido, W. (2009).  LTD and LTP at the developing retinogeniculate synapse, J Neurophysiol, 102(6), 3082-90
+
+[#Warland:2006]: Warland, D. K., Huberman, A. D., and Chalupa, L. M. (2006).  Dynamics of spontaneous activity in the fetal macaque retina during development of retinogeniculate pathways, J Neurosci, 26(19), 5190-7
+
+[#Stafford:2009]: Stafford, B. K., Sher, A., Litke, A. M., and Feldheim, D. A. (2009).  Spatial-temporal patterns of retinal waves underlying activity-dependent refinement of retinofugal projections, Neuron, 64(2), 200-12
+
+[#Weliky:1999]: Weliky, M. and Katz, L. C. (1999).  Correlational structure of spontaneous neuronal activity in the developing lateral geniculate nucleus in vivo, Science, 285(5427), 599-604
+
+[#Chiu:2002]: Chiu, C. and Weliky, M. (2002).  Relationship of correlated spontaneous activity to functional ocular dominance columns in the developing visual cortex, Neuron, 35(6), 1123--1134
+
+[#Colonnese:2010a]: Colonnese, M. T., Kaminska, A., Minlebaev, M., Milh, M., Bloem, B., Lescure, S., Moriette, G., Chiron, C., Ben-Ari, Y., and Khazipov, R. (2010).  A conserved switch in sensory processing prepares developing neocortex for vision, Neuron, 67(3), 480-98
+
+[#Colonnese:2010]: Colonnese, M. T. and Khazipov, R. (2010).  "Slow activity transients" in infant rat visual cortex: a spreading synchronous oscillation patterned by retinal waves, J Neurosci, 30(12), 4325-37
+
+[#Vanhatalo:2005]: Vanhatalo, S., Palva, J. M., Andersson, S., Rivera, C., Voipio, J., and Kaila, K. (2005).  Slow endogenous activity transients and developmental expression of K+-Cl- cotransporter 2 in the immature human cortex, Eur J Neurosci, 22(11), 2799-804
+
+[#Meister:1991]: Meister, M., Wong, R. O., Baylor, D. A., and Shatz, C. J. (1991).  Synchronous bursts of action potentials in ganglion cells of the developing mammalian retina, Science, 252(5008), 939-943
+
+[#Wong:1993]: Wong, R. O., Meister, M., and Shatz, C. J. (1993).  Transient period of correlated bursting activity during development of the mammalian retina, Neuron, 11(5), 923-38
+
+[#Feller:1996]: Feller, M. B., Wellis, D. P., Stellwagen, D., Werblin, F. S., and Shatz, C. J. (1996).  Requirement for cholinergic synaptic transmission in the propagation of spontaneous retinal waves, Science, 272(5265), 1182-7
+
+[#Zhou:2000]: Zhou, Z. J. and Zhao, D. (2000).  Coordinated transitions in neurotransmitter systems for the initiation and propagation of spontaneous retinal waves, J Neurosci, 20(17), 6570--6577
+
+[#Maffei:1990]: Maffei, L. and Galli-Resta, L. (1990).  Correlation in the discharges of neighboring rat retinal ganglion cells during prenatal life, Proc Natl Acad Sci U S A, 87(7), 2861-2864
+
+[#Wong:1999]: Wong, R. O. (1999).  Retinal waves and visual system development, Annu Rev Neurosci, 22(), 29-47
+
+[#Demas:2012]: Demas, J. A., Payne, H., and Cline, H. T. (2012).  Vision drives correlated activity without patterned spontaneous activity in developing Xenopus retina, Dev Neurobiol, 72(4), 537-46
+
+[#Cossart:2003]: Cossart, R., Aronov, D., and Yuste, R. (2003).  Attractor dynamics of network UP states in the neocortex, Nature, 423(6937), 283-8
+
+[#Kanold:2010]: Kanold, P. O. and Luhmann, H. J. (2010).  The subplate and early cortical circuits, Annu Rev Neurosci, 33(), 23-48
+
+[#Zheng:2006a]: Zheng, J., Lee, S., and Zhou, Z. J. (2006).  A transient network of intrinsically bursting starburst cells underlies the generation of retinal waves, Nat Neurosci, 9(3), 363-71
+
+[#Rochefort:2011]: Rochefort, N. L., Narushima, M., Grienberger, C., Marandi, N., Hill, D. N., and Konnerth, A. (2011).  Development of direction selectivity in mouse cortical neurons, Neuron, 71(3), 425-32
+
+[#Cang:2013]: Cang, J. and Feldheim, D. A. (2013).  Developmental Mechanisms of Topographic Map Formation and Alignment, Annu Rev Neurosci, (),
+
+[#Sarnaik:2013]: Sarnaik, R., Wang, B.-S., and Cang, J. (2013).  Experience-Dependent and Independent Binocular Correspondence of Receptive Field Subregions in Mouse Visual Cortex, Cereb Cortex, (),
+
+[#Espinosa:2012]: Espinosa, J. S. and Stryker, M. P. (2012).  Development and plasticity of the primary visual cortex, Neuron, 75(2), 230-49
+
+[#Crair:1998]: Crair, M. C., Gillespie, D. C., and Stryker, M. P. (1998).  The role of visual experience in the development of columns in cat visual cortex, Science, 279(5350), 566-70
+
+[#Hooks:2006]: Hooks, B. M. and Chen, C. (2006).  Distinct roles for spontaneous and visual activity in remodeling of the retinogeniculate synapse, Neuron, 52(2), 281-91
+
+[#Stellwagen:2002]: Stellwagen, D. and Shatz, C. J. (2002).  An instructive role for retinal waves in the development of retinogeniculate connectivity, Neuron, 33(3), 357-367
+
+[#Sernagor:1995]: Sernagor, E. and Grzywacz, N. M. (1995).  Emergence of complex receptive field properties of ganglion cells in the developing turtle retina, J Neurophysiol, 73(4), 1355-64
+
+[#Sernagor:1999]: Sernagor, E. and Grzywacz, N. M. (1999).  Spontaneous activity in developing turtle retinal ganglion cells: pharmacological studies, J Neurosci, 19(10), 3874-87
+
+[#Wong:1995]: Wong, R. O., Chernjavsky, A., Smith, S. J., and Shatz, C. J. (1995).  Early functional neural networks in the developing retina, Nature, 374(6524), 716-8
+
+[#Syed:2004a]: Syed, M. M., Lee, S., He, S., and Zhou, Z. J. (2004).  Spontaneous waves in the ventricular zone of developing mammalian retina, J Neurophysiol, 91(5), 1999-2009
+
+[#Wong:1998]: Wong, W. T., Sanes, J. R., and Wong, R. O. (1998).  Developmentally regulated spontaneous activity in the embryonic chick retina, J Neurosci, 18(21), 8839-52
+
+[#Catsicas:1998]: Catsicas, M., Bonness, V., Becker, D., and Mobbs, P. (1998).  Spontaneous Ca2+ transients and their transmission in the developing chick retina, Curr Biol, 8(5), 283-6
+
+[#Demas:2003]: Demas, J., Eglen, S. J., and Wong, R. O. L. (2003).  Developmental loss of synchronous spontaneous activity in the mouse retina is independent of visual experience, J Neurosci, 23(7), 2851-60
+
+[#Chiu:2001]: Chiu, C. and Weliky, M. (2001).  Spontaneous activity in developing ferret visual cortex in vivo, J Neurosci, 21(22), 8906--8914
+
+[#Tolonen:2007]: Tolonen, M., Palva, J. M., Andersson, S., and Vanhatalo, S. (2007).  Development of the spontaneous activity transients and ongoing cortical activity in human preterm babies, Neuroscience, 145(3), 997-1006
+
+[#Bansal:2000]: Bansal, A., Singer, J. H., Hwang, B. J., Xu, W., Beaudet, A., and Feller, M. B. (2000).  Mice lacking specific nicotinic acetylcholine receptor subunits exhibit dramatically altered spontaneous activity patterns and reveal a limited role for retinal waves in forming ON and OFF circuits in the inner retina, J Neurosci, 20(20), 7672-81
+
+[#Hubel:1977a]: Hubel, D. H. and Wiesel, T. N. (1977).  Ferrier lecture. Functional architecture of macaque monkey visual cortex, Proc R Soc Lond B Biol Sci, 198(1130), 1-59
+
+[#King:2000]: King, W. M. and Zhou, W. (2000).  New ideas about binocular coordination of eye movements: is there a chameleon in the primate family tree?, Anat Rec, 261(4), 153-61
+
+[#Huberman:2008a]: Huberman, A. D., Feller, M. B., and Chapman, B. (2008).  Mechanisms underlying development of visual maps and receptive fields, Annu Rev Neurosci, 31(), 479--509
+
+[#Cang:2013]: Cang, J. and Feldheim, D. A. (2013).  Developmental Mechanisms of Topographic Map Formation and Alignment, Annu Rev Neurosci, (), 
+
+[#Espinosa:2012]: Espinosa, J. S. and Stryker, M. P. (2012).  Development and plasticity of the primary visual cortex, Neuron, 75(2), 230-49
+
+[#Marder:2005]: Marder, E. and Rehm, K. J. (2005).  Development of central pattern generating circuits, Curr Opin Neurobiol, 15(1), 86-93
+
+[#Mazzoni:2007]: Mazzoni, A., Broccard, F. D., Garcia-Perez, E., Bonifazi, P., Ruaro, M. E., and Torre, V. (2007).  On the dynamics of the spontaneous activity in neuronal networks, PLoS ONE, 2(), e439
+
+[#Maffei:1990]: Maffei, L. and Galli-Resta, L. (1990).  Correlation in the discharges of neighboring rat retinal ganglion cells during prenatal life, Proc Natl Acad Sci U S A, 87(7), 2861-2864
+
+[#Meister:1991]: Meister, M., Wong, R. O., Baylor, D. A., and Shatz, C. J. (1991).  Synchronous bursts of action potentials in ganglion cells of the developing mammalian retina, Science, 252(5008), 939-943
+
+[#Leinekugel:2002]: Leinekugel, X., Khazipov, R., Cannon, R., Hirase, H., Ben-Ari, Y., and Buzsáki, G. (2002).  Correlated bursts of activity in the neonatal hippocampus in vivo, Science, 296(5575), 2049-52
+
+[#Khazipov:2006]: Khazipov, R. and Luhmann, H. J. (2006).  Early patterns of electrical activity in the developing cerebral cortex of humans and rodents, Trends Neurosci, 29(7), 414-8
+
+[#Friauf:1991]: Friauf, E. and Shatz, C. J. (1991).  Changing patterns of synaptic input to subplate and cortical plate during development of visual cortex, J Neurophysiol, 66(6), 2059-71
+
+[#Corlew:2004]: Corlew, R., Bosma, M. M., and Moody, W. J. (2004).  Spontaneous, synchronous electrical activity in neonatal mouse cortical neurones, J Physiol, 560(Pt 2), 377-90
+
+[#Peinado:2000]: Peinado, A. (2000).  Traveling slow waves of neural activity: a novel form of network activity in developing neocortex, J Neurosci, 20(2), RC54
+
+[#Namiki:2013]: Namiki, S., Norimoto, H., Kobayashi, C., Nakatani, K., Matsuki, N., and Ikegaya, Y. (2013).  Layer III Neurons Control Synchronized Waves in the Immature Cerebral Cortex, J Neurosci, 33(3), 987-1001
+
+[#Garaschuk:2000]: Garaschuk, O., Linn, J., Eilers, J., and Konnerth, A. (2000).  Large-scale oscillatory calcium waves in the immature cortex, Nat Neurosci, 3(5), 452-9
+
+[#Chandrasekaran:2007]: Chandrasekaran, A. R., Shah, R. D., and Crair, M. C. (2007).  Developmental homeostasis of mouse retinocollicular synapses, J Neurosci, 27(7), 1746-55
+
+[#Nataraj:2011]: Nataraj, K. and Turrigiano, G. (2011).  Regional and temporal specificity of intrinsic plasticity mechanisms in rodent primary visual cortex, J Neurosci, 31(49), 17932-40
+
+[#Crowley:2000]: Crowley, J. C. and Katz, L. C. (2000).  Early development of ocular dominance columns, Science, 290(5495), 1321--1324
+
+[#Holt:1983]: Holt, C. E. and Harris, W. A. (1983).  Order in the initial retinotectal map in Xenopus: a new technique for labelling growing nerve fibres, Nature, 301(5896), 150--152
+
+[#Rakic:1976]: Rakic, P. (1976).  Prenatal genesis of connections subserving ocular dominance in the rhesus monkey, Nature, 261(5560), 467--471
+
+[#Lemke:2005]: Lemke, G. and Reber, M. (2005).  Retinotectal mapping: new insights from molecular genetics, Annu Rev Cell Dev Biol, 21(), 551--580
+
+[#Sun:2008a]: Sun, C., Warland, D. K., Ballesteros, J. M., van der List, D., and Chalupa, L. M. (2008).  Retinal waves in mice lacking the beta2 subunit of the nicotinic acetylcholine receptor, Proc Natl Acad Sci U S A, 105(36), 13638--13643
+
+[#Levelt:2012]: Levelt, C. N. and Hübener, M. (2012).  Critical-period plasticity in the visual cortex, Annu Rev Neurosci, 35(), 309-30
+
+[#Turrigiano:2011]: Turrigiano, G. (2011).  Too many cooks? Intrinsic and synaptic homeostatic mechanisms in cortical circuit refinement, Annu Rev Neurosci, 34(), 89-103
+
+[#Crair:2001]: Crair, M. C., Horton, J. C., Antonini, A., and Stryker, M. P. (2001).  Emergence of ocular dominance columns in cat visual cortex by 2 weeks of age, J Comp Neurol, 430(2), 235-49
+
+[#Furman:2012]: Furman, M. and Crair, M. C. (2012).  Synapse maturation is enhanced in the binocular region of the retinocollicular map prior to eye opening, J Neurophysiol, 107(11), 3200-16
+
+[#Furman:2013]: Furman, M., Xu, H.-P., and Crair, M. C. (2013).  Competition driven by retinal waves promotes the morphological and functional synaptic development of neurons in the superior colliculus, J Neurophysiol, (), 
+
+[#Butts:2007]: Butts, D. A., Kanold, P. O., and Shatz, C. J. (2007).  A burst-based "Hebbian" learning rule at retinogeniculate synapses links retinal waves to activity-dependent refinement, PLoS Biol, 5(3), e61
+
+[#Stryker:1986]: Stryker, M. P. and Harris, W. A. (1986).  Binocular impulse blockade prevents the formation of ocular dominance columns in cat visual cortex, J Neurosci, 6(8), 2117--2133
+
+[#Sretavan:1988]: Sretavan, D. W., Shatz, C. J., and Stryker, M. P. (1988).  Modification of retinal ganglion cell axon morphology by prenatal infusion of tetrodotoxin, Nature, 336(6198), 468-71
+
+[#Shatz:1988]: Shatz, C. J. and Stryker, M. P. (1988).  Prenatal tetrodotoxin infusion blocks segregation of retinogeniculate afferents, Science, 242(4875), 87-9
+
+[#Antonini:1993]: Antonini, A. and Stryker, M. P. (1993).  Development of individual geniculocortical arbors in cat striate cortex and effects of binocular impulse blockade, J Neurosci, 13(8), 3549-73
+
+[#Wang:2009]: Wang, L., Rangarajan, K. V., Lawhn-Heath, C. A., Sarnaik, R., Wang, B.-S., Liu, X., and Cang, J. (2009).  Direction-specific disruption of subcortical visual behavior and receptive fields in mice lacking the beta2 subunit of nicotinic acetylcholine receptor, J Neurosci, 29(41), 12909-18
+
+[#Demas:2006]: Demas, J., Sagdullaev, B. T., Green, E., Jaubert-Miazza, L., McCall, M. A., Gregg, R. G., Wong, R. O. L., and Guido, W. (2006).  Failure to maintain eye-specific segregation in nob, a mutant with abnormally patterned retinal activity, Neuron, 50(2), 247-59
+
+[#Pfeiffenberger:2005]: Pfeiffenberger, C., Cutforth, T., Woods, G., Yamada, J., Rentería, R. C., Copenhagen, D. R., Flanagan, J. G., and Feldheim, D. A. (2005).  Ephrin-As and neural activity are required for eye-specific patterning during retinogeniculate mapping, Nat Neurosci, 8(8), 1022-7
+
+[#Penn:1998]: Penn, A. A., Riquelme, P. A., Feller, M. B., and Shatz, C. J. (1998).  Competition in retinogeniculate patterning driven by spontaneous activity, Science, 279(5359), 2108-2112
+
+[#Chapman:2000]: Chapman, B. (2000).  Necessity for afferent activity to maintain eye-specific segregation in ferret lateral geniculate nucleus, Science, 287(5462), 2479-82
+
+[#Kuhl:2010]: Kuhl, P. K. (2010).  Brain mechanisms in early language acquisition, Neuron, 67(5), 713-27
+
+[#Akrouh:2013]: Akrouh, A. and Kerschensteiner, D. (2013).  Intersecting Circuits Generate Precisely Patterned Retinal Waves, Neuron, (), 
+
+[#Kerschensteiner:2008]: Kerschensteiner, D. and Wong, R. O. L. (2008).  A precisely timed asynchronous pattern of ON and OFF retinal ganglion cell activity during propagation of retinal waves, Neuron, 58(6), 851-8
+
+[#Soto:2012]: Soto, F., Ma, X., Cecil, J. L., Vo, B. Q., Culican, S. M., and Kerschensteiner, D. (2012).  Spontaneous activity promotes synapse formation in a cell-type-dependent manner in the developing retina, J Neurosci, 32(16), 5426-39
+
+[#Huberman:2003]: Huberman, A. D., Wang, G.-Y., Liets, L. C., Collins, O. A., Chapman, B., and Chalupa, L. M. (2003).  Eye-specific retinogeniculate segregation independent of normal neuronal activity, Science, 300(5621), 994--998
+
+[#Van-Hooser:2012]: Van Hooser, S. D., Li, Y., Christensson, M., Smith, G. B., White, L. E., and Fitzpatrick, D. (2012).  Initial neighborhood biases and the quality of motion stimulation jointly influence the rapid emergence of direction preference in visual cortex, J Neurosci, 32(21), 7258-66
+
+[#Li:2006]: Li, Y., Fitzpatrick, D., and White, L. E. (2006).  The development of direction selectivity in ferret visual cortex requires early visual experience, Nat Neurosci, 9(5), 676--681
+
+[#Niell:2008]: Niell, C. M. and Stryker, M. P. (2008).  Highly selective receptive fields in mouse visual cortex, J Neurosci, 28(30), 7520--7536
+
+[#Wang:2010b]: Wang, B.-S., Sarnaik, R., and Cang, J. (2010).  Critical period plasticity matches binocular orientation preference in the visual cortex, Neuron, 65(2), 246-56
+
+[#Yang:2009]: Yang, J.-W., Hanganu-Opatz, I. L., Sun, J.-J., and Luhmann, H. J. (2009).  Three patterns of oscillatory activity differentially synchronize developing neocortical networks in vivo, J Neurosci, 29(28), 9011-25
+
+[#Olavarria:2003]: Olavarria, J. F. and Hiroi, R. (2003).  Retinal influences specify cortico-cortical maps by postnatal day six in rats and mice, J Comp Neurol, 459(2), 156-72
+
+[#Olavarria:2006]: Olavarria, J. F. and Safaeian, P. (2006).  Development of callosal topography in visual cortex of normal and enucleated rats, J Comp Neurol, 496(4), 495-512
+
+[#Ruthazer:2010a]: Ruthazer, E. S., Bachleda, A. R., and Olavarria, J. F. (2010).  Role of interstitial branching in the development of visual corticocortical connections: a time-lapse and fixed-tissue analysis, J Comp Neurol, 518(24), 4963-79
+
+[#Bock:2012]: Bock, A. S., Kroenke, C. D., Taber, E. N., and Olavarria, J. F. (2012).  Retinal input influences the size and corticocortical connectivity of visual cortex during postnatal development in the ferret, J Comp Neurol, 520(5), 914-32
+
+[#Laing:2012]: Laing, R. J., Bock, A. S., Lasiene, J., and Olavarria, J. F. (2012).  Role of retinal input on the development of striate-extrastriate patterns of connections in the rat, J Comp Neurol, 520(14), 3256-76
+
+
+
+
+
+
+[#Leamey:2009]: Leamey, C. A., Van Wart, A., and Sur, M. (2009).  Intrinsic patterning and experience-dependent mechanisms that generate eye-specific projections and binocular circuits in the visual pathway, Curr Opin Neurobiol, 19(2), 181-7
+
+[#Blankenship:2010]: Blankenship, A. G. and Feller, M. B. (2010).  Mechanisms underlying spontaneous patterned activity in developing neural circuits, Nat Rev Neurosci, 11(1), 18-29
+
+
+<!--- Standing waves, adult waves, pattern replay --->
+[#Benucci:2007]: Benucci, A., Frazor, R. A., and Carandini, M. (2007).  Standing waves and traveling waves distinguish two circuits in visual cortex, Neuron, 55(1), 103-17
+
+[#Han:2008]: Han, F., Caporale, N., and Dan, Y. (2008).  Reverberation of recent visual experience in spontaneous cortical waves, Neuron, 60(2), 321--327
+
+[#Lee:2002]: Lee, A. K. and Wilson, M. A. (2002).  Memory of sequential experience in the hippocampus during slow wave sleep, Neuron, 36(6), 1183-94
+
+
+
+
+<!--- More for wholeBrain paper 2013-09-04 14:33:53 --->
+[#Yang:2012a]: Yang, J.-W., An, S., Sun, J.-J., Reyes-Puerta, V., Kindler, J., Berger, T., Kilb, W., and Luhmann, H. J. (2012).  Thalamic Network Oscillations Synchronize Ontogenetic Columns in the Newborn Rat Barrel Cortex, Cereb Cortex, (), 
+
+[#Rochefort:2009]: Rochefort, N. L., Garaschuk, O., Milos, R.-I., Narushima, M., Marandi, N., Pichler, B., Kovalchuk, Y., and Konnerth, A. (2009).  Sparsification of neuronal activity in the visual cortex at eye-opening, Proc Natl Acad Sci U S A, 106(35), 15049-54
+
+
+
+
+
