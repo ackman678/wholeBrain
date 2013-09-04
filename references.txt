@@ -237,6 +237,17 @@
 
 [#Rochefort:2009]: Rochefort, N. L., Garaschuk, O., Milos, R.-I., Narushima, M., Marandi, N., Pichler, B., Kovalchuk, Y., and Konnerth, A. (2009).  Sparsification of neuronal activity in the visual cortex at eye-opening, Proc Natl Acad Sci U S A, 106(35), 15049-54
 
+[#Leinekugel:2002]: Leinekugel, X., Khazipov, R., Cannon, R., Hirase, H., Ben-Ari, Y., and Buzsáki, G. (2002).  Correlated bursts of activity in the neonatal hippocampus in vivo, Science, 296(5575), 2049-52
+
+[#Khazipov:2004a]: Khazipov, R., Sirota, A., Leinekugel, X., Holmes, G. L., Ben-Ari, Y., and Buzsáki, G. (2004).  Early motor activity drives spindle bursts in the developing somatosensory cortex, Nature, 432(7018), 758-61
+
+[#Golshani:2009]: Golshani, P., Gonçalves, J. T., Khoshkhoo, S., Mostany, R., Smirnakis, S., and Portera-Cailliau, C. (2009).  Internally mediated developmental desynchronization of neocortical network activity, J Neurosci, 29(35), 10890-9
+
+
+
+
+
+
 
 
 
