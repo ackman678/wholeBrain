@@ -1,7 +1,6 @@
 Author: James B. Ackman  
-Date: 2012-12-31 12:30:49  
-Date Modified: 2013-09-04 10:54:02  
-Tags: paper, draft, manuscript, literature, research, retinal waves, Spontaneous Activity, development  
+Date: 2013-09-04 10:54:02  
+Tags: paper, draft, manuscript, literature, research, #results, retinal waves, Spontaneous Activity, development, calcium domains  
 
 # Structured population activity across developing neocortex  
 
