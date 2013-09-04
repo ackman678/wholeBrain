@@ -19,7 +19,7 @@ Instructions for [converting multimarkdown to Word document][id4]
 
 
 
-[wholeBrain_main.md]: whole_brain.md
+[wholeBrain_main.md]: wholeBrain_main.md
 
 [id2]: https://github.com/ackman678/currOpinRvw/blob/master/currOpin_outline.md  
 
