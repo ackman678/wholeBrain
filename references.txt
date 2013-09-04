@@ -243,6 +243,8 @@
 
 [#Golshani:2009]: Golshani, P., Gonçalves, J. T., Khoshkhoo, S., Mostany, R., Smirnakis, S., and Portera-Cailliau, C. (2009).  Internally mediated developmental desynchronization of neocortical network activity, J Neurosci, 29(35), 10890-9
 
+[#Adelsberger:2005]: Adelsberger, H., Garaschuk, O., and Konnerth, A. (2005).  Cortical calcium waves in resting newborn mice, Nat Neurosci, 8(8), 988-90
+
 
 
 
