@@ -245,6 +245,8 @@
 
 [#Adelsberger:2005]: Adelsberger, H., Garaschuk, O., and Konnerth, A. (2005).  Cortical calcium waves in resting newborn mice, Nat Neurosci, 8(8), 988-90
 
+[#Yuste:1992]: Yuste, R., Peinado, A., and Katz, L. C. (1992).  Neuronal domains in developing neocortex, Science, 257(5070), 665-9
+
 
 
 

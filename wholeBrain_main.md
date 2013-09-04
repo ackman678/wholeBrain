@@ -13,6 +13,8 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 
 # Introduction  
 
+<!--- some of this intro material needs to be combined with abstract for a Nature letter --->
+
 - Activity and development
 - Neural activity, drugs, and birth defects
 	- epilepsy
@@ -21,9 +23,9 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
      - instructive or permissive?
      - EEG slow oscillations not detectable until P10 in rodent.
      - slice work
-     - leinekukel and khazipov work
-     - ucla konnerth imaging work
-     - human occipital cortex and my retinal wave paper
+     - leinekukel and khazipov work [#Leinekugel:2002][#Khazipov:2004a]
+     - ucla konnerth imaging work [#Golshani:2009][#Adelsberger:2005]
+     - human occipital cortex and my retinal wave paper [#Vanhatalo:2005][#Tolonen:2007][#Ackman:2012]
      - is the activity completely random? Or Is it organized in space and time, and at what scale?
      - the little that we know is from work in second postnatal week, not earlier, olavarria work, interneuon migration, synaptic formation, and anatomical studies indicates significant development decisions are being made in first postnatal week
 
@@ -34,13 +36,14 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 
 ## Ongoing activity in the developing cerebral cortex is characterized by discrete domains
 
-* Cortical column (mini/meso/super columns) history (20th century anatomists). 
+* Cortical column (mini/meso/super columns) history (20th century anatomists-- sherrington, valverde, rakic, etc). 
 * Column physiology-- Hubel and Wiesel. Rodent V1?
 * Developmental studies-- fetal monkey ODCs. 
-* Rodent barrels (early anatomical emergence from TC input, functional/physiological emergence?). * What is known about columns/domains in secondary/association/non-primary sensory representations? Rest of rodent S1 (non-barrel cortex?). 
-* Calcium domains of Yuste, Science 1992 paper. 
+* Rodent barrels (early anatomical emergence from TC input, functional/physiological emergence?). 
+	* What is known about columns/domains in secondary/association/non-primary sensory representations? Rest of rodent S1 (non-barrel cortex?). 
+* Calcium domains of Yuste, Science 1992 paper. [#Yuste:1992]
 * Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
-* Calcium imaging-- Konnerth 'waves' in Ent cortex. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- Golshani work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
+* Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
 
 Domains:  
@@ -94,7 +97,7 @@ Temporal correlation of activity between the hemispheres:
 
 ## Cortical domain activity is state dependent  ##
 
-* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system (Ackman Nature 2012). 
+* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
 * What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
 * No population calcium activity found during gen'l anesthesia, only slow traveling waves.
 * During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
@@ -147,6 +150,7 @@ xcorr during motor period.
 ## Cortical activity is mirrored between the hemispheres ##
 
 * Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
+* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
 * Activity correlated in anterior-posterior and medial-lateral directions
 * Mirror symmetric and non-mirror symmetric patterns
 * Regional effects, more corr anticorr in certain regions?
