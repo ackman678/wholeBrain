@@ -2,18 +2,20 @@ Author: James B. Ackman
 Date: 2013-09-04 10:54:02  
 Tags: paper, draft, manuscript, literature, research, #results, retinal waves, spontaneous activity, development, calcium domains  
 
-# Structured population activity across developing neocortex  
+# Structured population activity across developing isocortex  
+Structured neural activity across developing cerebral hemispheres
+Mesoscale mapping of neural activity across developing cerebral hemispheres
 
 # Abstract  
 
-The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity during fetal and postnatal development that are crucial for the activity-dependent formation and refinement of circuits. Knowing the source and flow of these activity patterns locally and globally is crucial to understanding self-organization in the developing brain. Here we describe a system for imaging patterns of activity throughout the developing neocortex at the 'mesoscopic' level of resolution in transgenic mice expressing the genetic calcium indicator GCaMP3. Ongoing activity in the neonatal cerebral cortex was characterized by discrete and repetitively active domains measuring 100s of microns in diameter. This technique offers an unprecedented ability to study functional connectivity within and between the cerebral hemispheres at a scope and scale which bridges the microscopic or macroscopic resolutions offered by traditional neurophysiology and neuroimaging (fMRI) based recordings and will provide a practical means to assess cortical connectivity with high spatial resolution in pathophysiological models for autism, epilepsy, and schizophrenia.
+The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity during fetal and postnatal development that are crucial for the activity-dependent formation and refinement of circuits. Knowing the source and flow of these activity patterns locally and globally is crucial to understanding self-organization in the developing brain. Here we show that neural population activity within newborn mice in vivo is characterized by spatially discrete domains that are coordinated in a state dependent and areal dependent fashion throughout developing isocortex. Whole brain optical recordings from neonatal mice expressing a genetic calcium reporter showed that ongoing activity in the cerebral cortex was characterized by discrete and repetitively active domains measuring hundreds of microns in diameter. Cortical domain activity depended on brain state with periods of localized and global domain synchrony exhibiting positive and negative correlations to motor behavior respectively. Furthermore, domain activity exhibited mirror-symmetric patterns between the hemispheres, with strong correlations between cortical areas that correspond to the default-mode network in primates. This study provides the first comprehensive description of population activity in the developing isocortex at a scope and scale that bridges the microscopic or macroscopic resolutions provided by traditional neurophysiological or neuroimaging techniques. The data provided by mesoscale maps of population dynamics among cortical areas will become critical for engineering repair strategies and brain-machine interfaces for neurodevelopmental disorders.
 
 
 
 
 # Introduction  
 
-<!--- some of this intro material needs to be combined with abstract for a Nature letter --->
+<!--- some of this intro material could be combined with abstract for a Nature letter (up to 300 words, 200 preferred) --->
 
 - Activity and development
 - Neural activity, drugs, and birth defects
