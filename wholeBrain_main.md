@@ -1,6 +1,6 @@
 Author: James B. Ackman  
 Date: 2013-09-04 10:54:02  
-Tags: paper, draft, manuscript, literature, research, #results, retinal waves, Spontaneous Activity, development, calcium domains  
+Tags: paper, draft, manuscript, literature, research, #results, retinal waves, spontaneous activity, development, calcium domains  
 
 # Structured population activity across developing neocortex  
 
@@ -44,6 +44,10 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 * Calcium domains of Yuste, Science 1992 paper. [#Yuste:1992]
 * Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
+
+
+![**Figure 1.** Calcium domains throughout neonatal mouse isocortex](figure1.png)
+
 
 
 Domains:  
@@ -104,6 +108,8 @@ Temporal correlation of activity between the hemispheres:
 <120518_09_mjpeg.mov>
 
 
+![**Figure 2.** Cortical domains are state dependent](figure2.png)
+
 
 ### Cortical activity and motor activity is periodic
 
@@ -159,6 +165,9 @@ xcorr during motor period.
 <!--
 * sensory input required or stimulation experiments?
 * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis?  -->
+
+
+![**Figure 3.** Cortical domain activity exhibits bilateral symmetry](figure3.png)
 
 
 ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)
