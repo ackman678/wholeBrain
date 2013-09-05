@@ -8,14 +8,14 @@ Mesoscale mapping of neural activity across developing cerebral hemispheres
 
 # Abstract  
 
-The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity during fetal and postnatal development that are crucial for the activity-dependent formation and refinement of circuits. Knowing the source and flow of these activity patterns locally and globally is crucial to understanding self-organization in the developing brain. Here we show that neural population activity within newborn mice in vivo is characterized by spatially discrete domains that are coordinated in a state dependent and areal dependent fashion throughout developing isocortex. Whole brain optical recordings from neonatal mice expressing a genetic calcium reporter showed that ongoing activity in the cerebral cortex was characterized by discrete and repetitively active domains measuring hundreds of microns in diameter. Cortical domain activity depended on brain state with periods of localized and global domain synchrony exhibiting positive and negative correlations to motor behavior respectively. Furthermore, domain activity exhibited mirror-symmetric patterns between the hemispheres, with strong correlations between cortical areas that correspond to the default-mode network in primates. This study provides the first comprehensive description of population activity in the developing isocortex at a scope and scale that bridges the microscopic or macroscopic resolutions provided by traditional neurophysiological or neuroimaging techniques. The data provided by mesoscale maps of population dynamics among cortical areas will become critical for engineering repair strategies and brain-machine interfaces for neurodevelopmental disorders.
+The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity during fetal and postnatal development that are crucial for the activity-dependent formation and refinement of circuits [#Katz:1996]. Knowing the source and flow of these activity patterns locally and globally is crucial to understanding self-organization in the developing brain. Here we show that neural population activity within newborn mice in vivo is characterized by spatially discrete domains that are coordinated in a state dependent and areal dependent fashion throughout developing isocortex. Whole brain optical recordings from neonatal mice expressing a genetic calcium reporter showed that ongoing activity in the cerebral cortex was characterized by discrete and repetitively active domains measuring hundreds of microns in diameter. Cortical domain activity depended on brain state with periods of localized and global domain synchrony exhibiting positive and negative correlations to motor behavior respectively. Furthermore, domain activity exhibited mirror-symmetric patterns between the hemispheres, with strong correlations between cortical areas that correspond to the default-mode network in primates. This study provides the first comprehensive description of population activity in the developing isocortex at a scope and scale that bridges the microscopic or macroscopic spatiotemporal resolutions provided by traditional neurophysiological or neuroimaging techniques. The data provided by mesoscale mapping of population dynamics among cortical areas in animal models will be crucial to engineering repair strategies and brain-machine interfaces for neurodevelopmental disorders.
 
 
 
 
 # Introduction  
 
-<!--- some of this intro material could be combined with abstract for a Nature letter (up to 300 words, 200 preferred) --->
+<!--- This should be one paragraph. Some of this intro material could be combined with intro or concl sentences in abstract for a Nature letter (should be referenced and up to 300 words; 200 words preferred) --->
 
 - Activity and development
 - Neural activity, drugs, and birth defects
@@ -50,51 +50,25 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 
 ![**Figure 1.** Calcium domains throughout neonatal mouse isocortex](figure1.png)
 
+<!---Figure 1 metadata
+* neonate_ms_fig.png
+* binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
+* domain map: Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png
+* hists: 120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440-crop.png
+--->
 
-
-Domains:  
-![](../figures/Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png)
-
-Domain overlay:  
-![](../figures/Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png)
-
-
-Domain stats:  
-
-key | value | unit
---- | --- | ---
-xmean | 388.6234 | µm
-ymean | 394.9717 | µm
-zmean | 0.63622 | s
-xmax | 3178 | µm
-ymax | 2383.5 | µm
-zmax | 14.6 | s
-xmin | 11.35 | µm
-ymin | 22.7 | µm
-zmin | 0.2 | s
-
-2.8683 domains/sec
-
-
-![](file:///Volumes/Vega/Users/ackman/Data/2photon/120518i/120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440.png)
-
-
-
-Temporal correlation of activity between the hemispheres:  
-![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
-
-<!--
-![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
+<!--- TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
 ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
--->
+--->
 
 
 
-![](../figures/Screen_Shot_2013-04-08_at_8.47.19_AM.png)
-
-
-
-
+metric | mean  | min  | max    | unit                  
+------------- | ----- | ---- | ------ | --------------------  
+diameter      | 396.0 | 22.7 | 2383.5 | µm                   
+duration      | 0.6   | 0.2  | 14.6   | s                     
+frequency     | 2.9   |      |        | domains/sec/hemisphere
+[**Table 1: Domain statistics**]
 
 
 
@@ -111,6 +85,16 @@ Temporal correlation of activity between the hemispheres:
 
 
 ![**Figure 2.** Cortical domains are state dependent](figure2.png)
+
+
+<!--- 
+
+
+Temporal correlation of activity between the hemispheres and preceding motor activation:  
+![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+
+hemisphere active fraction traces: ![](../figures/Screen_Shot_2013-04-08_at_8.47.19_AM.png)
+--->
 
 
 ### Cortical activity and motor activity is periodic

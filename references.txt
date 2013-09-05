@@ -247,6 +247,8 @@
 
 [#Yuste:1992]: Yuste, R., Peinado, A., and Katz, L. C. (1992).  Neuronal domains in developing neocortex, Science, 257(5070), 665-9
 
+[#Katz:1996]: Katz, L. C. and Shatz, C. J. (1996).  Synaptic activity and the construction of cortical circuits, Science, 274(5290), 1133-8
+
 
 
 
