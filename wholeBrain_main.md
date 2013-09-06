@@ -50,19 +50,6 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 
 ![**Figure 1.** Calcium domains throughout neonatal mouse isocortex](figure1.png)
 
-<!---Figure 1 metadata
-* neonate_ms_fig.png
-* binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
-* domain map: Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png
-* hists: 120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440-crop.png
---->
-
-<!--- TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
-![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
---->
-
-
-
 metric | mean  | min  | max    | unit                  
 ------------- | ----- | ---- | ------ | --------------------  
 diameter      | 396.0 | 22.7 | 2383.5 | µm                   
@@ -87,7 +74,7 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 ![**Figure 2.** Cortical domains are state dependent](figure2.png)
 
 
-<!--- 
+<!---Figure 2 metadata 
 
 
 Temporal correlation of activity between the hemispheres and preceding motor activation:  
@@ -148,23 +135,17 @@ xcorr during motor period.
 * Regional effects, more corr anticorr in certain regions?
 * State dependent corr?
 
-<!--
-* sensory input required or stimulation experiments?
-* Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis?  -->
-
+<!--- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? --->
 
 ![**Figure 3.** Cortical domain activity exhibits bilateral symmetry](figure3.png)
 
 
-![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)
-![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
-![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+
 
 xy pearson corr coef ML | xy pearson corr coef AP
 --- | ---
 p = 1.1591e-28 | p = 7.0982e-07
-
-![](../figures/Screen_Shot_2013-04-22_at_4.29.28_PM.png) | ![](../figures/Screen_Shot_2013-04-22_at_4.29.24_PM.png)
+*scatterplots in figure 3* ||
 
 
 
@@ -174,5 +155,35 @@ p = 1.1591e-28 | p = 7.0982e-07
 
 <!--- # References --->
 
+<!---Figure 1 metadata
+* neonate_ms_fig.png
+* binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
+* domain map: Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png
+* hists: 120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440-crop.png
+--->
+
+<!--- TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
+![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
+--->
+
+<!---Figure 3 metadata
+binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
+Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
+Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
+Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
+Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
+Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
+
+activefraction hemis AP & ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)
+activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+scatterplot ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
+scatterplot AP 
+--->
+
+
 <<[references.txt]
+
+
+
 
