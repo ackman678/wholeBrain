@@ -3,8 +3,8 @@ Date: 2013-09-04 10:54:02
 Tags: paper, draft, manuscript, literature, research, #results, retinal waves, spontaneous activity, development, calcium domains  
 
 # Structured population activity across developing isocortex  
-Structured neural activity across developing cerebral hemispheres
-Mesoscale mapping of neural activity across developing cerebral hemispheres
+Structured neural activity across developing cerebral hemispheres  
+Mesoscale mapping of neural activity across developing cerebral hemispheres  
 
 # Abstract  
 
@@ -48,7 +48,7 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
 
-![**Figure 1.** Calcium domains throughout neonatal mouse isocortex](figure1.png)
+![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. a, Experimental schematic. b, Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. c, Domain overlay map for a single 10 min recording. 3D binary masks were flattened for each domain and colored by time and transparently overlaid. Notice the non-uniform distribution of boundaries and color intensities across each hemisphere, as well as local maxima and minima that indicate matched areal boundaries bilaterally. d, Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
 
 metric | mean  | min  | max    | unit                  
 ------------- | ----- | ---- | ------ | --------------------  
