@@ -74,26 +74,6 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 ![**Figure 2.** Cortical domains are state dependent](figure2.png)
 
 
-<!---Figure 2 metadata 
-
-
-Temporal correlation of activity between the hemispheres and preceding motor activation:  
-![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
-
-hemisphere active fraction traces: ![](../figures/Screen_Shot_2013-04-08_at_8.47.19_AM.png)
---->
-
-
-### Cortical activity and motor activity is periodic
-
-![](../figures/Screen_Shot_2013-04-08_at_2.31.33_PM.png)
-
-Even more zoomed in. 
-![](../figures/Screen_Shot_2013-04-08_at_2.34.50_PM.png)
-
-
-![](../figures/Screen_Shot_2013-05-02_at_10.53.40_AM.png)
-
 Conclusions: The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
 
 The big secondary peaks around ±30 sec is present in both autocorrs and xcorrs and is far above the random normal xcorr baseline (blue trace). In fact there is a periodicity seen in the autocorrs and the xcorrs where there is a dampening oscillation about on this interval! (See ideal dampening frequency in random sine wave example above). This corresponds to a 1/30sec == 0.033 Hz ultra-slow oscillation.
@@ -102,11 +82,7 @@ Looking at the above plot showing lags from [–1000, 1000] frames which is ± 2
 
 
 
-### Cortical activity is correlated with the motor signal
 
-![](../figures/Screen_Shot_2013-04-25_at_5.18.36_PM.png)
-
-![](../figures/Screen_Shot_2013-04-25_at_3.59.05_PM.png)
 
 ### Percentage of cortical activity which exhibits corr with motor signal?
 
@@ -115,12 +91,7 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 2161 | 0.30032 | 129.8 | 0.27441 | 118.6 | 0.025914 | 11.2
 
 
-### Cross-correlation of cortical activity and motor activity
-xcorr for whole. 
-![](../figures/Screen_Shot_2013-04-24_at_2.39.50_PM.png)
 
-xcorr during motor period. 
-![](../figures/Screen_Shot_2013-04-24_at_3.11.10_PM.png)
 
 
 
@@ -154,6 +125,7 @@ p = 1.1591e-28 | p = 7.0982e-07
 
 
 <!--- # References --->
+<<[references.txt]
 
 <!---Figure 1 metadata
 * neonate_ms_fig.png
@@ -165,6 +137,29 @@ p = 1.1591e-28 | p = 7.0982e-07
 <!--- TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
 ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
 --->
+
+<!---Figure 2 metadata 
+Temporal correlation of activity between the hemispheres and preceding motor activation:  
+![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
+
+### Cortical activity and motor activity is periodic
+hemi auto & xcorr:
+Screen_Shot_2013-04-08_at_2.31.33_PM.png
+Screen_Shot_2013-04-08_at_2.34.50_PM.png
+Moving average signals color coded at diff lags: Screen_Shot_2013-05-02_at_10.53.40_AM.png
+
+### Cortical activity is correlated with the motor signal
+Rho and pvalues whole trace: ![](../figures/Screen_Shot_2013-04-25_at_5.18.36_PM.png)
+Rho and pvalues subset trace: ![](../figures/Screen_Shot_2013-04-25_at_3.59.05_PM.png)
+
+### Cross-correlation of cortical activity and motor activity
+auto, xcorr for whole. 
+Screen_Shot_2013-04-24_at_2.39.50_PM.png
+auto, xcorr during motor period. 
+Screen_Shot_2013-04-24_at_3.11.10_PM.png
+--->
+
 
 <!---Figure 3 metadata
 binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
@@ -180,10 +175,3 @@ activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8
 scatterplot ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
 scatterplot AP 
 --->
-
-
-<<[references.txt]
-
-
-
-
