@@ -22,7 +22,7 @@ A comprehensive description of the spatiotemporal activity patterns in the immat
 
 ### Previous work 
 
-reference                              | FOV info                                                                                                                                                                  | figure snapshot                                         
+reference                              | FOV info                                                                                                                                                                  | figure snapshot                                       
 -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------  
 [Chiu & Weliky][#Chiu:2001]            | linear MEA covering a **3.2 mm strip** across visual cortex Corr activity observed between cortical patches separated by mean distance of 1 mm                            | ![](assets/img/Screen_Shot_2013-09-04_at_2.16.02_PM.png)
 [Hanganu et al][#Hanganu:2006]         | single electrodes or 4 shank linear MEAs placed in each hemisphere (0.5-1.0mm spacing, for **1.5-3.0mm total**)                                                           | ![](assets/img/Screen_Shot_2013-09-04_at_2.36.18_PM.png)
@@ -69,7 +69,7 @@ Datasets and R code for exploratory data analysis and graphics will live inside 
 
 [wholeBrain_main.md]: wholeBrain_main.md
 
-[id2]: https://github.com/ackman678/currOpinRvw/blob/master/currOpin_outline.md  
+[id2]: https://github.com/ackman678/currOpinRvw/blob/master/currOpin_outline.md
 
 [id3]: https://github.com/ackman678/currOpinRvw/blob/master/README.md 
 

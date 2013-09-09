@@ -48,12 +48,12 @@ The cerebral cortex exhibits spontaneous and sensory evoked patterns of activity
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
 
-![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. a, Experimental schematic. b, Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. c, Domain overlay map for a single 10 min recording. 3D binary masks were flattened for each domain and colored by time and transparently overlaid. Notice the non-uniform distribution of boundaries and color intensities across each hemisphere, as well as local maxima and minima that indicate matched areal boundaries bilaterally. d, Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
+![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Domain overlay map for a single 10 min recording. 3D binary masks were flattened for each domain and colored by time and transparently overlaid. Notice the non-uniform distribution of boundaries and color intensities across each hemisphere, as well as local maxima and minima that indicate matched areal boundaries bilaterally. **d** Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
 
 metric | mean  | min  | max    | unit                  
 ------------- | ----- | ---- | ------ | --------------------  
-diameter      | 396.0 | 22.7 | 2383.5 | µm                   
-duration      | 0.6   | 0.2  | 14.6   | s                     
+diameter      | 396.0 | 22.7 | 2383.5 | µm           
+duration      | 0.6   | 0.2  | 14.6   | s             
 frequency     | 2.9   |      |        | domains/sec/hemisphere
 [**Table 1: Domain statistics**]
 
@@ -71,7 +71,7 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 <120518_09_mjpeg.mov>
 
 
-![**Figure 2.** Cortical domains are state dependent](figure2.png)
+![**Figure 2.** Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** dF/F image sequence showing cortical domain activity before and after isoflurane anesthesia within a single recording. **c** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces). **e** Cortical activity and coincident motor activity signals. Moving averages of cortical and motor activity at 10 s and >70 s windows. **f** Single frame domain masks for times indicated in **e**. **g** Autocorrelation and cross-correlation functions for cortical and motor activity for the whole recording or during just the active-motor-period. Notice the correlation between cortical and motor activity above random noise and that motor activity generally follows cortical activity (shift towards right).](figure2.png)
 
 
 Conclusions: The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
@@ -108,7 +108,7 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 
 <!--- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? --->
 
-![**Figure 3.** Cortical domain activity exhibits bilateral symmetry](figure3.png)
+![**Figure 3.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom panels show the periods indicated by black bars at expanded view. **c** Plot of hemispheric domain centers of mass for coactive frames. **d** Correlation matrix of domain activity among cortical areas.](figure3.png)
 
 
 
