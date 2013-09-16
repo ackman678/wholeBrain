@@ -150,17 +150,22 @@ hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
 hemi auto & xcorr:
 Screen_Shot_2013-04-08_at_2.31.33_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
 Screen_Shot_2013-04-08_at_2.34.50_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
-Moving average signals color coded at diff lags: Screen_Shot_2013-05-02_at_10.53.40_AM.png
+
+Moving average signals color coded at diff lags:
+120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.eps
+120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.png
+120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt_fig.eps
 
 ### Cortical activity is correlated with the motor signal
 Rho and pvalues whole trace: ![](../figures/Screen_Shot_2013-04-25_at_5.18.36_PM.png)
 Rho and pvalues subset trace: ![](../figures/Screen_Shot_2013-04-25_at_3.59.05_PM.png)
 
 ### Cross-correlation of cortical activity and motor activity
-auto, xcorr for whole. 
-Screen_Shot_2013-04-24_at_2.39.50_PM.png
-auto, xcorr during motor period. 
-Screen_Shot_2013-04-24_at_3.11.10_PM.png
+auto, xcorr for whole:  
+120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-092426.eps
+auto, xcorr during motor period:  
+120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-093834.eps
+
 --->
 
 
@@ -177,4 +182,6 @@ activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8
 activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
 scatterplot ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
 scatterplot AP 
+
+corr matrix: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.eps
 --->
