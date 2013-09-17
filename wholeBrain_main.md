@@ -183,5 +183,5 @@ activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8
 scatterplot ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
 scatterplot AP 
 
-corr matrix: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.eps
+corr matrix: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
 --->
