@@ -12,6 +12,8 @@ The idea is to provide a clear and beautiful representation of the visualized ac
 ### Scientific importance
 A comprehensive description of the spatiotemporal activity patterns in the immature brain will be crucial to understanding the developmental dynamics that exist between intrinsic and extrinsic factors that regulate circuit development. 
 
+Indeed one of the fundamental goals of the BRAIN Initiative funded by NIH, NSF, and DARPA is provide dynamic maps of the brains electrical activity at an intermediate scale that bridges the local and global assessments garnered through current technologies in animals and humans. [NIH BRAIN working group interim report](http://acd.od.nih.gov/ACD-BRAIN-Working-Group-Report.pdf)
+
 * signature patterns that predict current or future behavior
 * construction of self-organizing circuits (advanced robotics -- *Terminators, Skynet, & Cylons!*)
 
@@ -54,6 +56,62 @@ For example:
 * Development profile through first postnatal weeks
 * Chronic developmental profile in individuals?
 * Aberrant activity patterns in developmental disorder and seizure models?
+
+
+## Outline
+
+### Intro or conclusion stuff 
+
+- Neural activity, drugs, and birth defects
+	- epilepsy
+	- autism
+- What is the activity?
+     - instructive or permissive?
+     - leinekukel and khazipov work [#Leinekugel:2002][#Khazipov:2004a]
+     - ucla konnerth imaging work [#Golshani:2009][#Adelsberger:2005]
+     - human occipital cortex and retinal wave paper [#Vanhatalo:2005][#Tolonen:2007][#Ackman:2012]
+     - To understand the informational capacity of neural activty in the developing brain, the structural dynamics of persistent activity must be understood. 
+     - completely random? Organized in space and time, and at what scale?
+     - previous work on interneuron migration, axon growth (olavarria work) synaptic formation, and anatomical studies indicates significant development decisions are being made in first postnatal week
+
+
+### Ongoing activity in developing isocortex is characterized by discrete domains
+
+* Cortical column (mini/meso/super columns) history (20th century anatomists-- sherrington, valverde, rakic, etc). 
+* Column physiology-- Hubel and Wiesel. Rodent V1?
+* Developmental studies-- fetal monkey ODCs. 
+* Rodent barrels (early anatomical emergence from TC input, functional/physiological emergence?). 
+	* What is known about columns/domains in secondary/association/non-primary sensory representations? Rest of rodent S1 (non-barrel cortex?). 
+* Calcium domains of Yuste, Science 1992 paper. [#Yuste:1992]
+* Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
+* Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
+
+### Cortical domain activity is state dependent
+
+* EEG slow oscillations not detectable until P10 in rodent.
+* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
+* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
+* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
+* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
+<120518_09_mjpeg.mov>
+
+### Cortical activity is mirrored between the hemispheres
+
+* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
+* olavarria work, evidence for inter hemispheric activity dependence
+* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
+* Activity correlated in anterior-posterior and medial-lateral directions
+* Mirror symmetric and non-mirror symmetric patterns
+* Regional effects, more corr anticorr in certain regions?
+* State dependent corr?
+
+### Conclusions
+
+* **Ongoing activity in developing cortex is not random**-- specifically coordinated in space and time within and among cortical areas between the hemispheres
+* BRAIN initiative
+	- this work aids at least a couple of the 9 preliminary aims of the Brain project
+* template for assessing altered functional dynamics in models for neurological disorders
+
 
 
 ## Workflow

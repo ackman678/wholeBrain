@@ -249,6 +249,11 @@
 
 [#Katz:1996]: Katz, L. C. and Shatz, C. J. (1996).  Synaptic activity and the construction of cortical circuits, Science, 274(5290), 1133-8
 
+[#Mountcastle:1957]: Mountcastle, V. B. (1957).  Modality and topographic properties of single neurons of cat's somatic sensory cortex, J Neurophysiol, 20(4), 408-34
+
+[#Mountcastle:1997]: Mountcastle, V. B. (1997).  The columnar organization of the neocortex, Brain, 120 ( Pt 4)(), 701-22
+
+[#Horton:2005]: Horton, J. C. and Adams, D. L. (2005).  The cortical column: a structure without a function, Philos Trans R Soc Lond B Biol Sci, 360(1456), 837-62
 
 
 
