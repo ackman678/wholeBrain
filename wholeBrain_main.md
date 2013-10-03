@@ -41,7 +41,7 @@ Neocortical organization consists of cortical modules tiled across the cortical 
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
 
-![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Domain overlay map for a single 10 min recording. 3D binary masks were flattened for each domain and colored by time and transparently overlaid. Notice the non-uniform distribution of boundaries and color intensities across each hemisphere, as well as local maxima and minima that indicate matched areal boundaries bilaterally. **d** Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
+![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Functional activity map at P3. Based on pixel activation frequency from detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **d** Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
 
 metric | mean  | min  | max    | unit                  
 ------------- | ----- | ---- | ------ | --------------------  
@@ -113,7 +113,7 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 # Conclusions
 
 * **Ongoing activity in developing cortex is not random**-- specifically coordinated in space and time within and among cortical areas between the hemispheres
-* BRAIN initiative
+* ~~BRAIN initiative (for cover letter to the editor)~~
 	- this work aids at least a couple of the 9 preliminary aims of the Brain project
 * template for assessing altered functional dynamics in models for neurological disorders
 
@@ -128,55 +128,60 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 <!---Figure 1 metadata
 * neonate_ms_fig.png
 * binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
-* domain map: Screen_Shot_2013-05-14_at_4.11.51_PM_crop.png
+* domain map: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rdomainPatchesPlot20130912-111733.eps
+	* update 2013-10-03 11:07:29: 
+		* 120518_07_2013-09-11-225029_d2rImageCoords20130930-144657.ai
+			* created using area coords: 120518_07_2013-09-11-225029_d2rImageCoords20130930-144657.eps
+			* 120518_07_parcellation_fig.tif: alpha overlay of brightfield image with Allen gray parcellation image and Sert-tdtomato images linearly scaled to fit V1 & S1-barrel reprsentations in functional image and domain centroid map 
+				* contourplot of 20 levels 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2r_20130930-124942.eps
+				* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2r_20130930-124950_eps.png
 * hists: 120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440-crop.png
---->
 
-<!--- TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
-![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
+* TODO: add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
+	* ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
 --->
 
 <!---Figure 2 metadata 
-Temporal correlation of activity between the hemispheres and preceding motor activation:  
-![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
-hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
+* Temporal correlation of activity between the hemispheres and preceding motor activation:  
+	* ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+* hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
 
 ### Cortical activity and motor activity is periodic
-hemi auto & xcorr:
-Screen_Shot_2013-04-08_at_2.31.33_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
-Screen_Shot_2013-04-08_at_2.34.50_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
-
-Moving average signals color coded at diff lags:
-120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.eps
-120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.png
-120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt_fig.eps
+* hemi auto & xcorr:
+	* Screen_Shot_2013-04-08_at_2.31.33_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
+	* Screen_Shot_2013-04-08_at_2.34.50_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
+* Moving average signals color coded at diff lags:
+	* 120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.eps
+	* 120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.png
+	* 120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt_fig.eps
 
 ### Cortical activity is correlated with the motor signal
-Rho and pvalues whole trace: ![](../figures/Screen_Shot_2013-04-25_at_5.18.36_PM.png)
-Rho and pvalues subset trace: ![](../figures/Screen_Shot_2013-04-25_at_3.59.05_PM.png)
+* Rho and pvalues whole trace: ![](../figures/Screen_Shot_2013-04-25_at_5.18.36_PM.png)
+* Rho and pvalues subset trace: ![](../figures/Screen_Shot_2013-04-25_at_3.59.05_PM.png)
 
 ### Cross-correlation of cortical activity and motor activity
-auto, xcorr for whole:  
-120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-092426.eps
-auto, xcorr during motor period:  
-120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-093834.eps
-
+* auto, xcorr for whole:  
+	* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-092426.eps
+* auto, xcorr during motor period:  
+	* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-093834.eps
 --->
 
 
 <!---Figure 3 metadata
-binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
-Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
-Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
-Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
-Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
-Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
-
-activefraction hemis AP & ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
-activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
-activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
-scatterplot ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
-scatterplot AP 
-
-corr matrix: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
+* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
+	* Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
+	* Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
+	* Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
+	* Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
+	* Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
+* activefraction hemis AP & ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
+* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+* scatterplots:  
+	* ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
+	* AP 
+* corr matrix: orig: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
+	* update 2013-10-03 11:04:39:
+		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.ai
+		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.eps
 --->
