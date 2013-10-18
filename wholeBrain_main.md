@@ -52,6 +52,32 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 
 
 
+## Cortical activity is mirrored between the hemispheres
+
+* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
+* olavarria work, evidence for inter hemispheric activity dependence
+* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
+* Activity correlated in anterior-posterior and medial-lateral directions
+* Mirror symmetric and non-mirror symmetric patterns
+* Regional effects, more corr anticorr in certain regions?
+* State dependent corr?
+
+<!--- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? --->
+
+![**Figure 2.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure2.png)
+
+
+
+**Conclusions:** The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
+
+The big secondary peaks around ±30 sec is present in both autocorrs and xcorrs and is far above the random normal xcorr baseline (blue trace). In fact there is a periodicity seen in the autocorrs and the xcorrs where there is a dampening oscillation about on this interval! (See ideal dampening frequency in random sine wave example above). This corresponds to a 1/30sec == 0.033 Hz ultra-slow oscillation.
+
+Looking at the above plot showing lags from [–1000, 1000] frames which is ± 200 s, we can see about 5.5 cycles of this underlying dampening oscillation in both autocorr plots. This corresponds to (1000fr*0.2sec/fr)/5.5 => 36.36 sec/cycle => 0.0275 cycles/sec or ~0.03 Hz
+
+**Conclusions:** So the activity in both hemispheres at postnatal day 3 (P3) clearly exhibits significant spatial correlations in  both in the medial-lateral and anterior-extent. This is consistent with and complementary to the fact that the active pixel fraction in each hemisphere exhibits a strong temporal correlation as I found earlier in this report [Temporal correlation of activity][]. The medial-lateral positional correlation is stronger than the anterior-posterior (higher *R* and lower *p* value).   The total number of coactive frames is `numel(y1(~isnan(y1)&~isnan(y2)))` == **1114 frames**. This is accounts to **37.13%** of the movie or **222.8 s**. Cortex.L had 1635 actvFrames and cortex.R had 1677 actvFrames which means that each hemisphere was coactive with the other hemisphere 1114/1635 == **68.13%** and 1114/1677 == **66.43%** of the active time respectively. 
+
+
+
 
 
 
@@ -65,16 +91,7 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 <120518_09_mjpeg.mov>
 
 
-![**Figure 2.** Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** dF/F image sequence showing cortical domain activity before and after isoflurane anesthesia within a single recording. **c** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces). **e** Cortical activity and coincident motor activity signals. Moving averages of cortical and motor activity at 10 s and >70 s windows. **f** Single frame domain masks for times indicated in **e**. **g** Autocorrelation and cross-correlation functions for cortical and motor activity for the whole recording or during just the active-motor-period. Notice the correlation between cortical and motor activity above random noise and that motor activity generally follows cortical activity (shift towards right).](figure2.png)
-
-
-Conclusions: The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
-
-The big secondary peaks around ±30 sec is present in both autocorrs and xcorrs and is far above the random normal xcorr baseline (blue trace). In fact there is a periodicity seen in the autocorrs and the xcorrs where there is a dampening oscillation about on this interval! (See ideal dampening frequency in random sine wave example above). This corresponds to a 1/30sec == 0.033 Hz ultra-slow oscillation.
-
-Looking at the above plot showing lags from [–1000, 1000] frames which is ± 200 s, we can see about 5.5 cycles of this underlying dampening oscillation in both autocorr plots. This corresponds to (1000fr*0.2sec/fr)/5.5 => 36.36 sec/cycle => 0.0275 cycles/sec or ~0.03 Hz
-
-
+![**Figure 3.** Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** dF/F image sequence showing cortical domain activity before and after isoflurane anesthesia within a single recording. **c** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **e** Cortical activity and coincident motor activity signals. Moving averages of cortical and motor activity at 10 s and >70 s windows. **f** Single frame domain masks for times indicated in **e**. **g** Autocorrelation and cross-correlation functions for cortical and motor activity for the whole recording or during just the active-motor-period. Notice the correlation between cortical and motor activity above random noise and that motor activity generally follows cortical activity (shift towards right).](figure3.png)
 
 
 
@@ -90,24 +107,10 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 
 
 
+## Developing cortical networks consist of distinct modules.
 
-## Cortical activity is mirrored between the hemispheres
+![**Figure 4.** Subnetworks in developing isocortex. **a** Areal trace examples. **b** Correlation matrix of domain activity among cortical areas. **c** Graph.](figure4.png)
 
-* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
-* olavarria work, evidence for inter hemispheric activity dependence
-* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
-* Activity correlated in anterior-posterior and medial-lateral directions
-* Mirror symmetric and non-mirror symmetric patterns
-* Regional effects, more corr anticorr in certain regions?
-* State dependent corr?
-
-<!--- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? --->
-
-![**Figure 3.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **c** Correlation matrix of domain activity among cortical areas.](figure3.png)
-
-
-
-**Conclusions:** So the activity in both hemispheres at postnatal day 3 (P3) clearly exhibits significant spatial correlations in  both in the medial-lateral and anterior-extent. This is consistent with and complementary to the fact that the active pixel fraction in each hemisphere exhibits a strong temporal correlation as I found earlier in this report [Temporal correlation of activity][]. The medial-lateral positional correlation is stronger than the anterior-posterior (higher *R* and lower *p* value).   The total number of coactive frames is `numel(y1(~isnan(y1)&~isnan(y2)))` == **1114 frames**. This is accounts to **37.13%** of the movie or **222.8 s**. Cortex.L had 1635 actvFrames and cortex.R had 1677 actvFrames which means that each hemisphere was coactive with the other hemisphere 1114/1635 == **68.13%** and 1114/1677 == **66.43%** of the active time respectively. 
 
 
 # Conclusions
