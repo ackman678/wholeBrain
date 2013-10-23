@@ -144,15 +144,33 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 	* ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
 --->
 
-<!---Figure 2 metadata 
+
+<!---Figure 2 metadata
+* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
+	* Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
+	* Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
+	* Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
+	* Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
+	* Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
 * Temporal correlation of activity between the hemispheres and preceding motor activation:  
 	* ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
 * hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
+* activefraction hemis AP & ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
+* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+### Cortical activity correlated between the hemispheres and is periodic
+* hemi auto & xcorr:
+	* 2500fr lags: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
+	* 250fr lags:  120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
+	* 1500fr lags: 120518_07_2013-10-18_AllgoodactiveFraction20131023-145023.eps
+--->
+
+
+
+<!---Figure 3 metadata 
+* Isoflurane contour maps:
 
 ### Cortical activity and motor activity is periodic
-* hemi auto & xcorr:
-	* Screen_Shot_2013-04-08_at_2.31.33_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
-	* Screen_Shot_2013-04-08_at_2.34.50_PM.png | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
 * Moving average signals color coded at diff lags:
 	* 120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.eps
 	* 120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt.png
@@ -167,24 +185,22 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 	* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-092426.eps
 * auto, xcorr during motor period:  
 	* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rmotorSignalXCorr20130912-093834.eps
+* pixel activation frequency map projections: 
+	* quiet motor state: 
+		* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rActivityMapFigContour20131016-163945-20131023_MotorQuiet_eps.png
+	* active motor state:
+		* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rActivityMapFigContour20131016-163945-20131023_MotorActive_eps.png
 --->
 
 
-<!---Figure 3 metadata
-* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
-	* Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
-	* Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
-	* Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
-	* Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
-	* Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
-* activefraction hemis AP & ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
-* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
-* activefraction hemis AP & ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
-* scatterplots:  
-	* ML Screen_Shot_2013-04-22_at_4.29.28_PM.png
-	* AP 
+<!---Figure 4 metadata
+* active fraction traces: 
 * corr matrix: orig: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
 	* update 2013-10-03 11:04:39:
 		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.ai
 		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.eps
+	* update 2013-10-23 14:31:37:
+		* 120518_07_2013-10-18_AllgoodcorrMatrix20131018-154625.eps
+* corr graph: 
+	* 120518_07_2013-10-18_AllgoodCorrGraph20131021-144258.eps
 --->
