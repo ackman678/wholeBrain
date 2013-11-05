@@ -41,7 +41,7 @@ Neocortical organization consists of cortical modules tiled across the cortical 
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
 
-![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Functional activity map at P3. Based on pixel activation frequency from detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **d** Histograms showing the distribution of spatial diameters and durations for calcium domains.](figure1.png)
+![**Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Domain centroid positions for 10 min recording. Points are overlaid on a normalized pixel activation frequency map and primary sensory areas determined by thalamocortical inputs at P7 are outlined in red. Notice rows of whisker barrels are evident in the structure of domain centroid positions. **d** Functional activity map at P3. Based on pixel activation frequency from detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **e** Histograms showing the distribution of spatial diameters and durations for calcium domains. **f** Domain duration map.](figure1.png)
 
 metric | mean  | min  | max    | unit                  
 ------------- | ----- | ---- | ------ | --------------------  
@@ -64,7 +64,7 @@ frequency     | 2.9   |      |        | domains/sec/hemisphere
 
 <!--- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? --->
 
-![**Figure 2.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure2.png)
+![**Figure 2.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure2.png)
 
 
 
@@ -80,18 +80,6 @@ Looking at the above plot showing lags from [–1000, 1000] frames which is ± 2
 
 
 
-
-## Cortical domain activity is state dependent
-
-* EEG slow oscillations not detectable until P10 in rodent.
-* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
-* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
-* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
-* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
-<120518_09_mjpeg.mov>
-
-
-![**Figure 3.** Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** dF/F image sequence showing cortical domain activity before and after isoflurane anesthesia within a single recording. **c** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **e** Cortical activity and coincident motor activity signals. Moving averages of cortical and motor activity at 10 s and >70 s windows. **f** Single frame domain masks for times indicated in **e**. **g** Autocorrelation and cross-correlation functions for cortical and motor activity for the whole recording or during just the active-motor-period. Notice the correlation between cortical and motor activity above random noise and that motor activity generally follows cortical activity (shift towards right).](figure3.png)
 
 
 
@@ -109,11 +97,34 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 
 ## Developing cortical networks consist of distinct modules.
 
-![**Figure 4.** Subnetworks in developing isocortex. **a** Areal trace examples. **b** Correlation matrix of domain activity among cortical areas. **c** Graph.](figure4.png)
+![**Figure 3.** Subnetworks in developing isocortex. **a** Areal trace examples. Synchronized activations between hemispheres indicated by red links. **b** Correlation matrix of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. **c** Map of cortical area associations for r > 0.2. **d** Graph of functional connections for r > 0.1. Community structure detected with hierarchical clustering are indicated in 4 colors. Notice that S1-limb/body regions form a distinct subgraph (green).](figure3.png)
 
 
+
+## Cortical domain activity is state dependent
+
+* EEG slow oscillations not detectable until P10 in rodent.
+* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
+* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
+* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
+* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
+<120518_09_mjpeg.mov>
+
+
+![**Figure 4.** Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **c** Cortical activity and coincident motor activity signals. Gray shading indicates active and quiet motor periods determined by the half-rise and decay times from peak in the low pass filtered motor signal. Active pixel fraction traces for motor (M1,M2), somatosensory (HL,FL,T; barrel), and visual (V1,V2) cortex shown at bottom of panel. Red links show synchronized motor movements and brain activity with different cortical regions. **d** Single frame domain masks for times indicated in **c**. **e** Autocorrelation and cross-correlation functions for motor and all cortical activity or just S1-limb/body and motor cortex regions. Notice the general negative correlation between motor activity and all cortex activity signals (r = -0.1368, p = 5.1919e-14) and the high positive correlation between motor and S1-limb/body signals (r = 0.3019, p = 2.7861e-64). **f** Pixel activation frequency maps during quiet and active motor periods.](figure4.png)
+
+Low pass filtered Moving averages of cortical and motor activity at 10 s and >70 s windows. 
 
 # Conclusions
+
+* Neural population activity constitutes discrete spatial and temporal activations among developing cortical areas
+* Cortical activity exhibits symmetrical spatial and temporal activations across the hemispheres
+*  
+* Population activity in developing cortex depends motor activity state
+* 
+
+
+* Population activity in developing cortex is not random-- it exhibits distinct structure in space and time.
 
 * **Ongoing activity in developing cortex is not random**-- specifically coordinated in space and time within and among cortical areas between the hemispheres
 * ~~BRAIN initiative (for cover letter to the editor)~~
@@ -166,8 +177,19 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 --->
 
 
+<!---Figure 3 metadata
+* active fraction traces: 
+* corr matrix: orig: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
+	* update 2013-10-03 11:04:39:
+		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.ai
+		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.eps
+	* update 2013-10-23 14:31:37:
+		* 120518_07_2013-10-18_AllgoodcorrMatrix20131018-154625.eps
+* corr graph: 
+	* 120518_07_2013-10-18_AllgoodCorrGraph20131021-144258.eps
+--->
 
-<!---Figure 3 metadata 
+<!---Figure 4 metadata 
 * Isoflurane contour maps:
 
 ### Cortical activity and motor activity is periodic
@@ -192,15 +214,3 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 		* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rActivityMapFigContour20131016-163945-20131023_MotorActive_eps.png
 --->
 
-
-<!---Figure 4 metadata
-* active fraction traces: 
-* corr matrix: orig: 120518_07_2013-09-11-225029_d2rcorrMatrix20130912-001431_fig.ai
-	* update 2013-10-03 11:04:39:
-		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.ai
-		* 120518_07_2013-09-11-225029_d2rcorrMatrix20130930-111018.eps
-	* update 2013-10-23 14:31:37:
-		* 120518_07_2013-10-18_AllgoodcorrMatrix20131018-154625.eps
-* corr graph: 
-	* 120518_07_2013-10-18_AllgoodCorrGraph20131021-144258.eps
---->
