@@ -95,7 +95,7 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 
 
 
-## Developing cortical networks consist of distinct modules.
+## Developing cortical activity consists of distinct subnetworks
 
 ![**Figure 3.** Subnetworks in developing isocortex. **a** Areal trace examples. Synchronized activations between hemispheres indicated by red links. **b** Correlation matrix of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. **c** Map of cortical area associations for r > 0.2. **d** Graph of functional connections for r > 0.1. Community structure detected with hierarchical clustering are indicated in 4 colors. Notice that S1-limb/body regions form a distinct subgraph (green).](figure3.png)
 
@@ -119,8 +119,8 @@ Low pass filtered Moving averages of cortical and motor activity at 10 s and >70
 
 * Neural population activity constitutes discrete spatial and temporal activations among developing cortical areas
 * Cortical activity exhibits symmetrical spatial and temporal activations across the hemispheres
-*  
-* Population activity in developing cortex depends motor activity state
+* Developing cerebral networks comprise distinct functional modules among cortical areas 
+* Cortical activity is coordinated with motor behavioral state in an areal dependent fashion
 * 
 
 
