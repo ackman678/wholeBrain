@@ -1,0 +1,97 @@
+require(igraph) 
+
+edgelist<-read.delim('/Users/ackman/Documents/MATLAB/dCorrpairs-20131105-125023.txt')
+
+edgelist2<-subset(edgelist,rvalue > 0.1)
+
+
+g <- graph.data.frame(edgelist2, directed=FALSE)
+#V(g)$label <- V(g)$name  #gets the actual vertice labels
+plot(g,layout=layout.lgl,vertex.size=5)
+title('layoutLgl, vertex size5')
+
+quartz();
+plot(g, layout=layout.fruchterman.reingold, vertex.size=3)
+title('layoutFR, vertex size3')
+
+quartz();
+com <- spinglass.community(g, spins=5)   #finds communities
+V(g)$color <- com$membership+1
+plot(g, layout=layout.fruchterman.reingold)
+title('spinglass, layoutFR, default vertex size')
+
+
+walktrapCom<-walktrap.community(g)
+V(g)$color <- walktrapCom$membership+1
+
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.fruchterman.reingold)
+palette("default")
+title('walktrap, layoutFR, default vertex size,alpha0.5')
+
+
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.lgl)
+palette("default")
+title('walktrap, layoutLgl, default vertex size,alpha0.5')
+
+
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.kamada.kawai)
+palette("default")
+title('walktrap, layout.kamada.kawai, default vertex size,alpha0.5')
+
+g <- graph.data.frame(edgelist2, directed=FALSE)
+fastgreedyCom<-fastgreedy.community(g)
+V(g)$color <- fastgreedyCom$membership+1
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.kamada.kawai)
+palette("default")
+title('fastgreedy, layout.kamada.kawai, default vertex size,alpha0.5')
+
+
+
+
+edgelist2<-subset(edgelist,rvalue > 0.1)
+g <- graph.data.frame(edgelist2, directed=FALSE)
+fastgreedyCom<-fastgreedy.community(g)
+V(g)$color <- fastgreedyCom$membership+1
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.fruchterman.reingold)
+palette("default")
+title('fastgreedy, layout.fruchterman.reingold, default vertex size,alpha0.5')
+
+
+
+
+# Edgelist > 0.2
+
+edgelist2<-subset(edgelist,rvalue > 0.2)
+g <- graph.data.frame(edgelist2, directed=FALSE)
+fastgreedyCom<-fastgreedy.community(g)
+V(g)$color <- fastgreedyCom$membership+1
+quartz();
+palette(rainbow(max(V(g)$color),alpha=0.5))
+plot(g, layout=layout.fruchterman.reingold)
+palette("default")
+title('fastgreedy, layout.fruchterman.reingold, rvalue >0.2')
+
+
+degree(g)
+degree.distribution(g)
+degree.distribution(g,cumulative = TRUE)
+
+
+
+
+#------Histogram of degree distribution-------------------------------------------------------------
+df <- data.frame(degree(g))
+colnames(df) <- c("degree")
+p <- ggplot(df, aes(x=degree)) + xlab("degree") + theme_bw()
+p + geom_histogram(binwidth = 2) + scale_colour_brewer(palette="Set1") + opts(aspect.ratio=1)  #raw counts
+ggsave(file=paste("120518_07-degreeDist", format(Sys.time(),"%y%m%d-%H%M%S"), ".pdf",sep=""))
