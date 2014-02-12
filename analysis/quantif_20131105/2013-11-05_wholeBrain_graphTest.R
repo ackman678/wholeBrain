@@ -140,9 +140,13 @@ quartz.save(file=paste(dateStr, "-", fnm,  ".pdf",sep=""), type = "pdf")
 
 
 edgelist<-read.delim('/Users/ackman/Data/2photon/131208/2014-01-07-003602/dCorr.txt')
+edgelist<-read.delim('/Users/ackman/Data/2photon/120518i/2014-01-03-231550/dCorr.txt')
 
-rthresh <- 0.2
-fnm <- '131208_09'
+for(j in c(0.1,0.15,0.2)) {
+for(i in c('131208_01','131208_03','131208_04','131208_05')) {
+# for(i in c('120518_06','120518_07','120518_08','120518_09')) {
+rthresh <- j
+fnm <- i
 fnm2 <- paste(fnm,".tif",sep="")
 lo <- 'layout.fruchterman.reingold'
 # lo <- 'layout.kamada.kawai'
@@ -161,14 +165,14 @@ V(g)$color <- fastgreedyCom$membership
 # palette(rainbow(max(V(g)$color),alpha=0.5))
 mypalette <- adjustcolor(brewer.pal(max(V(g)$color),"Set1"),0.6)
 palette(mypalette)
-plot(g, layout=eval(parse(text=lo)), edge.width=E(g)$width, edge.color="black", vertex.label.color="black")
-# palette("default")
-title(paste(fnm,', fastgreedy default, ', lo, 'r>', rthresh))
-dateStr=format(Sys.time(),"%y%m%d-%H%M%S")
-quartz.save(file=paste(dateStr, "-", fnm,  ".png",sep=""), type = "png", dpi=150)
-quartz.save(file=paste(dateStr, "-", fnm,  ".pdf",sep=""), type = "pdf")
-
-
+# plot(g, layout=eval(parse(text=lo)), edge.width=E(g)$width, edge.color="black", vertex.label.color="black")
+# title(paste(fnm,', fastgreedy default, ', lo, 'r>', rthresh))
+# dateStr=format(Sys.time(),"%y%m%d-%H%M%S")
+# # quartz.save(file=paste(dateStr, "-", fnm,  ".png",sep=""), type = "png", dpi=150)
+# quartz.save(file=paste(dateStr, "-", fnm,  ".pdf",sep=""), type = "pdf")
+print(transitivity(g))
+}
+}
 
 # 2014-01-14 14:59:18 Make mean summary graphs for P3 and P8
 
@@ -188,7 +192,7 @@ rvalue.sem = rvalue.sd/sqrt(N))
 colnames(d2)[colnames(d2) == 'rvalue.mean'] <- 'rvalue'
 
 rthresh <- 0.15
-fnm <- 'P8'
+fnm <- '131208'
 # fnm2 <- paste(fnm,".tif",sep="")
 lo <- 'layout.fruchterman.reingold'
 # lo <- 'layout.kamada.kawai'
@@ -223,6 +227,12 @@ average.path.length(g)
 diameter(g)
 hub.score(g)$vector
 mean(degree(g))
+transitivity(g)
+centralization.degree(g)
+is.connected(g)
+no.clusters(g)
+clusters(g)
+
 
 #------Histogram of degree distribution-------------------------------------------------------------
 df <- data.frame(degree(g))
