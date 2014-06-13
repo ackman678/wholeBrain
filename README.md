@@ -26,6 +26,7 @@ Indeed one of the fundamental goals of the BRAIN Initiative funded by NIH, NSF, 
 
 reference                              | FOV info                                                                                                                                                                  | figure snapshot                                       
 -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------  
+[Yuste et al.][#Yuste:1992]            | calcium imaging in tangential slices of barrel cortex L4 from P4-5 rats in figure2, and from somatosensory, visual and frontal cortices in general with coronal or tangential slices from P0-7. **500 x 575 µm FOV**. Mean domain size was 96 µm. 50 -120µm range. 'We found no differences in the size, shape, or frequency of domains in different cortical areas.'                               | ![](assets/img/yuste1992-fig2.png)
 [Chiu & Weliky][#Chiu:2001]            | linear MEA covering a **3.2 mm strip** across visual cortex Corr activity observed between cortical patches separated by mean distance of 1 mm                            | ![](assets/img/Screen_Shot_2013-09-04_at_2.16.02_PM.png)
 [Hanganu et al][#Hanganu:2006]         | single electrodes or 4 shank linear MEAs placed in each hemisphere (0.5-1.0mm spacing, for **1.5-3.0mm total**)                                                           | ![](assets/img/Screen_Shot_2013-09-04_at_2.36.18_PM.png)
 [Adelsberger et al][#Adelsberger:2005] | optical fiber implant for freely moving neonatal mice with bulk loading, 400µm diameter FOV imaged in TeA or Ent                                                         | ![](assets/img/Screen_Shot_2013-09-04_at_4.43.51_PM.png)
@@ -36,7 +37,7 @@ reference                              | FOV info                               
 [Leinekugel et al][#Leinekugel:2002]   | P4-6 rat hippocampus, cortex, 8 tip linear MEA (tungsten wires), 100-300µm vertical tip separation                                                                       | ![](assets/img/Screen_Shot_2013-09-04_at_4.00.40_PM.png)
 [Khazipov et al][#Khazipov:2004a]      | P1-6 rat somatosensory cortex, single electrode MUA and PC                                                                                                                | ![](assets/img/Screen_Shot_2013-09-04_at_4.10.07_PM.png)
 [Yang et al][#Yang:2009]               | 4x4 linear MEA 200µm spacing, **600µm total**, bilaterally in S1 barrel cortex                                                                                          | ![](assets/img/Screen_Shot_2013-09-04_at_3.54.37_PM.png)
-[Yang et al][#Yang:2012a]              | **2.6 x 2.6 mm FOV**, VSD imaging in S1 cortex P0-7 rat. Spont and evoked activity in C2 barrel. 8shank x 4site silicon probe linear MEA (200µm separation, 1.4mm total) | ![](assets/img/Screen_Shot_2013-09-04_at_2.26.32_PM.png)
+[Yang et al][#Yang:2012a]              | **2.6 x 2.6 mm FOV**, VSD imaging in S1 cortex P0-7 rat. Spont and evoked activity in C2 barrel. 8shank x 4site silicon probe linear MEA (200µm separation, 1.4mm total). Activations were 300-400µm diam and 70% synchronized 1-2 barrel columns wide from P0-7. At P7 there was sig incr in activations synch >6 barrel columns. | ![](assets/img/Screen_Shot_2013-09-04_at_2.26.32_PM.png)
 [Golshani et al][#Golshani:2009]       | 2P-MCI in mouse S1 **478 x 186 µm FOV**                                                                                                                                  | ![](assets/img/Screen_Shot_2013-09-04_at_4.13.14_PM.png)
 monkey and human                       | EEG performed prenatally [#Vanhatalo:2005][#Tolonen:2007], no fMRI prenatally, (or infant?) but has been done in children for resting state connectivity                  |                                                         
 
@@ -86,15 +87,6 @@ For example:
 * Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
 * Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
 
-### Cortical domain activity is state dependent
-
-* EEG slow oscillations not detectable until P10 in rodent.
-* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
-* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
-* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
-* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
-<120518_09_mjpeg.mov>
-
 ### Cortical activity is mirrored between the hemispheres
 
 * Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
@@ -104,6 +96,15 @@ For example:
 * Mirror symmetric and non-mirror symmetric patterns
 * Regional effects, more corr anticorr in certain regions?
 * State dependent corr?
+
+### Cortical domain activity is state dependent
+
+* EEG slow oscillations not detectable until P10 in rodent.
+* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
+* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
+* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
+* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
+<120518_09_mjpeg.mov>
 
 ### Conclusions
 

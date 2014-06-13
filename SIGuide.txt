@@ -1,0 +1,8 @@
+## Supplementary Figures
+This file contains Supplementary Figures 1- with legends (pdf; x MB)
+
+## Supplementary Movie 1
+The movie shows an example of transcranial cortical activity patterns in Rx-Cre:GCaMP3 mice imaged at P3. Movie is a 60 s long recording played back at 10x (50 fps) as dF/F. Field of view is 6 mm x 8 mm (Quicktime; x MB).
+
+## Supplementary Movie 2
+The movie shows an example of transcranial cortical activity patterns in Rx-Cre:GCaMP3 mice imaged at P8. Movie is a 60 s long recording played back at 10x (50 fps) as dF/F. Field of view is 11 mm x 13 mm (Quicktime; x MB).

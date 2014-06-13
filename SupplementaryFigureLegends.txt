@@ -1,0 +1,3 @@
+## Supplementary Figure Legends
+
+**Supplmentary Figure 1.** **Subnetworks in developing isocortex.** **a** Areal trace examples. Synchronized activations between hemispheres indicated by red links. 
