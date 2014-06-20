@@ -24,46 +24,31 @@ Brain development requires neural activity and calcium dynamics for establishing
 
 We performed transcranial optical recordings from mice expressing the genetic calcium reporter GCaMP (GCaMP3 or GCaMP6) throughout cortical neurons to assess neural population activity patterns with high spatial resolution and at macroscopic scale. We performed our recordings in three age groups: P2-P5, P8-P9, and P12-13. Functional mesoscale optical imaging (fMOI) revealed that supracellular cortical activity patterns were characterized by discrete domains of activation (Fig. 1) [Supplementary Movie 1](../wholeBrain_blob/ackmanWholeBrainGcampP3.mov) during the first two postnatal weeks. These activity domains ranged from 200-800 µm in diameter (*Ns*, *fig*), with larger sized domains of activation in the visual cortex and motor cortex (*Ns*, *fig*). In the second postnatal week the size of cortical activity domains became larger in the frontal-motor and  S1-limb/body regions [Supplementary Movie 2](../wholeBrain_blob/ackmanWholeBrainImaging-lo.mov). 
 
-The neocortex exhibits a characteristic columnar organization by  cortical macrocolumns tiled across the cortical surface that reflects a such that vertical arrays of cells concerned with specific sensory features are grouped together as columns [#Mountcastle:1997] in a topographic fashion . Most evidence to date suggests that cortical macrocolumns are 300-500µm diameter across species [mountcastle ref].
+The duration of domain activations was not significantly affected by age (F = 0.933, p = 0.428, r^2 = 0.00567) or by hemisphere (F = 0.017, p = 0.900) (P2-5, N = 15653; P8-9, N = 70189; P12-13, N = 120214 domains) (Fig. 1e,f).
 
+There was a significant effect of age on the diameter of cortical domain activations(F = 25.788, p = 0.000188, r^2 = 0.1277), but not hemisphere (F = 0.192, p = 0.671808) (Fig. 1g,h).
 
-There was a significant effect of age and brain region on the duration of cortical domain activations (age: 2 Df, F=20.8078 , p < 1.273e-09; region: Df 14, F=25.3941, < 2.2e-16, Anova). Mean cortical domain duration across all regions increased from 1.34 ± 0.04 s at P2-5 (N=327 region-movies), to 1.49 ± 0.03 at P8-9 (N = 450), and then decreased to 1.22 ± 0.03 at P12-13 (N=570) (P2-5:P8-9, p = 0.0001504; P2-5:P12-13, p = 0.0000583; P8-9:P12-13, p < 2e-16).   cortical domain activations decreased over the course of development from , and this  (*Ns*, *fig*) There were longer activations on the order of seconds to tens of seconds in visual cortex driven by retinal waves [#Ackman:2012]. Long lasting wave-like activations also occured in motor cortex P2-5 (Fig 2 montage).
+Cortical calcium domain frequency significantly increased with age (F = 29.562, p = 8.86e-12, r^2 = 0.2535) and did not differ significantly between the hemispheres (F = 0.012, p = 0.911) (P2-5, N = 22; P8-9, N = 30; P12-13, N = 38 movies/hemi) (Fig. 1i,j).
+
+The neocortex exhibits a characteristic columnar organization by cortical macrocolumns tiled across the cortical surface that reflects a such that vertical arrays of cells concerned with specific sensory features are grouped together as columns [#Mountcastle:1997] in a topographic fashion. Most evidence to date suggests that cortical macrocolumns are 300-800µm diameter across species [mountcastle ref].
 
 We parcellated the brain into distinct anatomical boundaries by using reference coordinates from a mouse line that expressed the tdtomato reporter in thalamocortical afferents. The expression can be used to parcellate out areal boundaries of primary sensory cortical areas (wong riley 1979).  We matched these parcellations to a Allen brain atlas adult mouse reference image and than linearly scaled the remaining parcellations in our FOV on to the images of our recordings that contain fucntional boundaries (like in the domain centroid activation plot and in the normalized domain frequency plots).
+There were longer activations on the order of seconds to tens of seconds in visual cortex driven by retinal waves [#Ackman:2012]. Long lasting wave-like activations also occured in motor cortex P2-5 (Fig 2 montage).
 
 
-![ **Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at P3 and automatically detected domain masks. **c** Domain centroid positions for 10 min recording. Points are overlaid on a normalized pixel activation frequency map and primary sensory areas determined by thalamocortical inputs at P7 are outlined in red. Notice rows of whisker barrels are evident in the structure of domain centroid positions. **d** Functional activity map at P3. Based on pixel activation frequency from detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **e** Histograms showing the distribution of spatial diameters and durations for calcium domains. **f** Domain duration map.](figure1.png)
+![ **Figure 1.** Calcium domains throughout neonatal mouse isocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at postnatal day 3 (P3) and automatically detected domain masks. **c** Centroid positions for segmented domain masks from a 10 min recording. Points are overlaid on a reference map of primary sensory areas determined by thalamocortical inputs (red outlines). Notice rows of whisker barrels are evident in the structure of domain centroid positions. **d** Functional activity map at P3. Based on pixel activation frequency from all detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **e** Mean domain duration maps from 3 SNAP25-Ai103 mice. **f** Histograms showing domain durations distributions in the P2-5, P8-9, and P12-13 age groups and by cortical hemisphere (L, R). **g** Mean domain diameter maps from same 3 mice in e. **h** Histograms showing the distributions of domain diameters. **i** Mean domain frequency maps from same 3 mice in e. **j** Boxplot distributions of hemispheric domain frequencies.](figure1.png)
 
-metric | mean  | min  | max    | unit                  
-------------- | ----- | ---- | ------ | --------------------  
-diameter      | 396.0 | 22.7 | 2383.5 | µm 
-duration      | 0.6   | 0.2  | 14.6   | s           
-frequency     | 2.9   |      |        | domains/sec/hemisphere
-[**Table 1: Domain statistics**]
+|        | duration (s) | diameter (µm)    | frequency (hemisphere-min^-1) |
+| ------ | ------------ | ----------------- | ----------------------------- |
+| P2-5   | 0.8 ± 0.4   | 441.12 ± 147.04  | 30.90 ± 9.55                 |
+| P8-9   | 0.6 ± 0.2   | 569.78 ± 220.56  | 98.35 ± 27.60                |
+| P12-13 | 0.4 ± 0.2   | 1047.66 ± 367.60 | 147.80 ± 78.65               |
 
-
-
-## Cortical activity is mirrored between the hemispheres
-
-* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
-* olavarria work, evidence for inter hemispheric activity dependence
-* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
-
-To understand the patterns and how they interact we first looked at correlation between the hemispheres. Cortical activity exhibited high temporal correlation between the hemispheres () . In additon this activity was highly correlated in the spatial dimension.  We found that activity was correlated in anterior-posterior and medial-lateral directions. It exhibited mirror symmetric and non-mirror symmetric patterns. For example epochs of time would exhibit high correlation in the medial-lateral dimension or in the rostral-caudal dimension. This strength of correlation temporally and spatially increased between the hemsipheres with a function of age.
-
-<!-- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? -->
-
-![ **Figure 2.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure2.png)
+| Notes: Values are reported as medians ± median absolute deviation ||||
+[ **Table 1: Domain statistics**]
 
 
 
-**Conclusions:** The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
-
-The big secondary peaks around ±30 sec is present in both autocorrs and xcorrs and is far above the random normal xcorr baseline (blue trace). In fact there is a periodicity seen in the autocorrs and the xcorrs where there is a dampening oscillation about on this interval! (See ideal dampening frequency in random sine wave example above). This corresponds to a 1/30sec == 0.033 Hz ultra-slow oscillation.
-
-Looking at the above plot showing lags from [–1000, 1000] frames which is ± 200 s, we can see about 5.5 cycles of this underlying dampening oscillation in both autocorr plots. This corresponds to (1000fr*0.2sec/fr)/5.5 => 36.36 sec/cycle => 0.0275 cycles/sec or ~0.03 Hz
-
-**Conclusions:** So the activity in both hemispheres at postnatal day 3 (P3) clearly exhibits significant spatial correlations in  both in the medial-lateral and anterior-extent. This is consistent with and complementary to the fact that the active pixel fraction in each hemisphere exhibits a strong temporal correlation as I found earlier in this report [Temporal correlation of activity][]. The medial-lateral positional correlation is stronger than the anterior-posterior (higher *R* and lower *p* value).   The total number of coactive frames is `numel(y1(~isnan(y1)&~isnan(y2)))` == **1114 frames**. This is accounts to **37.13%** of the movie or **222.8 s**. Cortex.L had 1635 actvFrames and cortex.R had 1677 actvFrames which means that each hemisphere was coactive with the other hemisphere 1114/1635 == **68.13%** and 1114/1677 == **66.43%** of the active time respectively. 
 
 
 
@@ -91,6 +76,31 @@ lenActvFraction>0 | fracCorr | timeCorr_s | fracCorrPos | timeCorrPos_s | fracCo
 
 
 
+## Cortical activity is mirrored between the hemispheres
+
+* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
+* olavarria work, evidence for inter hemispheric activity dependence
+* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
+
+To understand the patterns and how they interact we first looked at correlation between the hemispheres. Cortical activity exhibited high temporal correlation between the hemispheres () . In additon this activity was highly correlated in the spatial dimension.  We found that activity was correlated in anterior-posterior and medial-lateral directions. It exhibited mirror symmetric and non-mirror symmetric patterns. For example epochs of time would exhibit high correlation in the medial-lateral dimension or in the rostral-caudal dimension. This strength of correlation temporally and spatially increased between the hemsipheres with a function of age.
+
+<!-- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? -->
+
+![ **Figure 4.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure4.png)
+
+
+
+**Conclusions:** The two hemispheres seem to be mostly synchronized, though it’s possible the R hemispshere (which is also the slightly more ‘active’ hemisphere, see stats table below) leads the left by a bit. The asymmetric peak at –150–175frames is interesting. That would be about 30–35 sec.
+
+The big secondary peaks around ±30 sec is present in both autocorrs and xcorrs and is far above the random normal xcorr baseline (blue trace). In fact there is a periodicity seen in the autocorrs and the xcorrs where there is a dampening oscillation about on this interval! (See ideal dampening frequency in random sine wave example above). This corresponds to a 1/30sec == 0.033 Hz ultra-slow oscillation.
+
+Looking at the above plot showing lags from [–1000, 1000] frames which is ± 200 s, we can see about 5.5 cycles of this underlying dampening oscillation in both autocorr plots. This corresponds to (1000fr*0.2sec/fr)/5.5 => 36.36 sec/cycle => 0.0275 cycles/sec or ~0.03 Hz
+
+**Conclusions:** So the activity in both hemispheres at postnatal day 3 (P3) clearly exhibits significant spatial correlations in  both in the medial-lateral and anterior-extent. This is consistent with and complementary to the fact that the active pixel fraction in each hemisphere exhibits a strong temporal correlation as I found earlier in this report [Temporal correlation of activity][]. The medial-lateral positional correlation is stronger than the anterior-posterior (higher *R* and lower *p* value).   The total number of coactive frames is `numel(y1(~isnan(y1)&~isnan(y2)))` == **1114 frames**. This is accounts to **37.13%** of the movie or **222.8 s**. Cortex.L had 1635 actvFrames and cortex.R had 1677 actvFrames which means that each hemisphere was coactive with the other hemisphere 1114/1635 == **68.13%** and 1114/1677 == **66.43%** of the active time respectively. 
+
+
+
+
 ## Developing cortical activity consists of distinct subnetworks
 
 We then calculated a matrix of pearsons correlation coefficients based on the pixel active fraction timecourses for each pair of parcellations. The resulting assocaition matrix was run through a hierarchal clustering alogtithm to reveal functional modules of of activation. These functional modules typically consisted of 3 distinct subnetworks-- a frontal motor network, a posterior parietal network, a S1-body/limb network, and an auditory A1 network at P12.
@@ -98,7 +108,7 @@ We then calculated a matrix of pearsons correlation coefficients based on the pi
 We found many similarities but some striking differences as a function of age.
 
 
-![ **Figure 4.** Subnetworks in developing isocortex. **a** Correlation matrix of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. **b** Graph of functional connections for r > 0.15. Community structure detected with hierarchical clustering are indicated in 4 colors. Notice that S1-limb/body regions form a distinct subgraph (red). **c** Map of cortical area associations for r > 0.1.](figure4.png)
+![ **Figure 5.** Subnetworks in developing isocortex. **a** Correlation matrix of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. **b** Graph of functional connections for r > 0.15. Community structure detected with hierarchical clustering are indicated in 4 colors. Notice that S1-limb/body regions form a distinct subgraph (red). **c** Map of cortical area associations for r > 0.1.](figure5.png)
 
 
 
@@ -141,38 +151,22 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 <!--Figure 1 metadata
 * neonate_ms_fig.png
 * binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
-* domain map: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2rdomainPatchesPlot20130912-111733.eps
+* parcellation map
 	* update 2013-10-03 11:07:29: 
 		* 120518_07_2013-09-11-225029_d2rImageCoords20130930-144657.ai
 			* created using area coords: 120518_07_2013-09-11-225029_d2rImageCoords20130930-144657.eps
 			* 120518_07_parcellation_fig.tif: alpha overlay of brightfield image with Allen gray parcellation image and Sert-tdtomato images linearly scaled to fit V1 and S1-barrel reprsentations in functional image and domain centroid map 
 				* contourplot of 20 levels 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2r_20130930-124942.eps
 				* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2r_20130930-124950_eps.png
-* hists: 120518_07_connComponents_BkgndSubtr60px-20130327-163111domains20130402-151440-crop.png
-
-* [x] add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
-	* ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
+    * [x] add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
+        * ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
+* domainFreq map: 
+    * domainFreq boxplot: 
+* domainDur map: 20140613-082954_ActivityMapFigRawProj-domainDurRdBu.eps
+    * domainDur cdf: 
 -->
 
-
-<!--Figure 2 metadata
-* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
-	* Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
-	* Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
-	* Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
-	* Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
-	* Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
-* Temporal correlation of activity between the hemispheres and preceding motor activation:  
-	* ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
-* hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
-* activefraction hemis AP and ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
-* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
-* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
-### Cortical activity correlated between the hemispheres and is periodic
-* hemi auto and xcorr:
-	* 2500fr lags: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
-	* 250fr lags:  120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
-	* 1500fr lags: 120518_07_2013-10-18_AllgoodactiveFraction20131023-145023.eps
+<!-- Figure 2 metadata 
 -->
 
 <!--Figure 3 metadata 
@@ -191,8 +185,27 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 -->
 
 <!--Figure 4 metadata
+* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
+    * Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
+    * Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
+    * Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
+    * Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
+    * Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
+* Temporal correlation of activity between the hemispheres and preceding motor activation:  
+    * ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+* hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
+* activefraction hemis AP and ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
+* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+### Cortical activity correlated between the hemispheres and is periodic
+* hemi auto and xcorr:
+    * 2500fr lags: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
+    * 250fr lags:  120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
+    * 1500fr lags: 120518_07_2013-10-18_AllgoodactiveFraction20131023-145023.eps
+-->
+
+<!--Figure 5 metadata
 * corr matrix: MeanCorrMatrix-age-2014-06-02.ai, (140602-113013-age.g-groupCorrMatrix.pdf, 140602-112947-dendr-ageP12-13.pdf)
 * corr graph force layout: 140602-101610-P12-13_0.15.pdf
 * corr graph spatial layout: 140602-100049-P12-13_0.15.pdf
 -->
-
