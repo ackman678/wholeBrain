@@ -255,10 +255,16 @@
 
 [#Horton:2005]: Horton, J. C. and Adams, D. L. (2005).  The cortical column: a structure without a function, Philos Trans R Soc Lond B Biol Sci, 360(1456), 837-62
 
+<!-- Technical references -->
 
+[#Lucas:1981]: B.D. Lucas and T. Kanade, “An Iterative image registration technique with an application to stereo vision”, in International Joint Conference on Artificial Intelligence, pp. 674-697, 1981.
 
+[#Dollar]: P. Dollár, Piotr’s Image and Video Matlab Toolbox,
+http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
+<!-- 2014-07-11 09:25:18 -->
 
+[#Kobayashi:1963]: Kobayashi, T. (1963).  Brain-to-body ratios and time of maturation of the mouse brain, Am J Physiol, 204(), 343-6
 
 
 
