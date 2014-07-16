@@ -30,7 +30,7 @@ Functional mesoscale optical imaging (fMOI) revealed that supracellular cortical
 The neocortex exhibits a characteristic modular organization across the cortical surface such that vertical arrays of cells concerned with specific sensory features are grouped together as columns in a topographic fashion [#Mountcastle:1997]. Most evidence suggests that cortical columns range from 300-600µm diameter, even between species whose brain volumes differ by a factor of 10^3 [#Mountcastle:1997]. Its intriguing that we found the size of cortical domains to be centered on this range at early ages, because this is in agreement with previous work showing that population activity in neonatal rat barrel cortex maps onto ontogenetic modules centered on each barrel column [#Yang:2012a] and barrels are an archetypical model for columnar cortical function in rodent. Indeed, we found a cortical area in primary somatosensory cortex at P2-5 where cortical domain activations group into rows and individual modules that match primary barrel cortex structure (Fig. 1c) (Supplementary Fig.). This indicates that early cortical activity in some cortical areas is matched to the size the functional cortical modules that are thought to be the fundamental procdessing unit of the cerebral cortex. 
 
 
-![ **Figure 1.** Calcium domains throughout neonatal mouse neocortex. **a** Experimental schematic. **b** Single image frame showing calcium domains in both hemispheres at postnatal day 3 (P3) and automatically detected domain masks. **c** Centroid positions for segmented domain masks from a 10 min recording. Points are overlaid on a reference map of primary sensory areas determined by thalamocortical inputs (red outlines). Notice rows of whisker barrels are evident in the structure of domain centroid positions. **d** Functional activity map at P3. Based on pixel activation frequency from all detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **e** Mean domain duration maps from 3 SNAP25-Ai103 mice. **f** Histograms showing domain durations distributions in the P2-5, P8-9, and P12-13 age groups and by cortical hemisphere (L, R). **g** Mean domain diameter maps from same 3 mice in e. **h** Histograms showing the distributions of domain diameters. **i** Mean domain frequency maps from same 3 mice in e. **j** Boxplot distributions of hemispheric domain frequencies.](figure1.png)
+![ **Figure 1.** Calcium domains throughout neonatal mouse neocortex. **a** Experimental schematic. **b** Left panel: Single image frame showing calcium domains in both hemispheres at postnatal day 3 (P3) and the mask of detected domain signals. Middle and right panels: Time projection map from a raw dF/F movie segment and the corresponding map from automatically detected domain masks. Notice the individual domains of activity in the area of barrel cortex (arrow) **c** Centroid positions for segmented domain masks from a 10 min recording. Points are overlaid on a reference map of primary sensory areas determined by thalamocortical inputs (red outlines). Notice rows of whisker barrels are evident in the structure of domain centroid positions (arrow). **d** Functional activity map at P3. Based on pixel activation frequency from all detected domains in a single 10 min recording. Map is overlaid on cortical areal parcellations. Notice localized maxima and minima of functional activity between areas that approximate known anatomical cortical area boundaries and the mirroring of map structure bilaterally. **e** Mean domain duration maps from 3 SNAP25-Ai103 mice. **f** Histograms showing domain durations distributions in the P2-5, P8-9, and P12-13 age groups and by cortical hemisphere (L, R). **g** Mean domain diameter maps from same 3 mice in e. **h** Histograms showing the distributions of domain diameters. **i** Mean domain frequency maps from same 3 mice in e. **j** Boxplot distributions of hemispheric domain frequencies.](figure1.png)
 
 |        | duration (s) | diameter (µm)    | frequency (hemisphere-min^-1) |
 | ------ | ------------ | ----------------- | ----------------------------- |
@@ -48,7 +48,7 @@ We examined how the spatiotemporal properties of cortical domains vary among dif
 Cortical domain frequency among different regions scaled as a function of net cortical area and this association became stronger during the course of development (Fig. 2a). The most frequently cortical regions at each age group when normalized to the amount of total amount of cortical space was the limb/trunk representations in somatosensory cortex (Fig. 1i, Supplementary Fig.). Generally, the frequency of activity was remarkably uniform across cortical areas at each age of development (Supplementary Fig) indicating a homeostatic mechanism regulating global activity levels. The long tails in the domain duration and diameter distributions at P2-5 and P8-9 (Fig. 1f,h) were dominated by retinal wave driven cortical activity in V1 that lasted on the order of seconds to tens of seconds (Fig. 1e, Fig. 2b,c), but also by long lasting wave-like activations occurring in motor cortex (Fig. 1e, Fig. 2b,c). Indeed the cortical regions with the highest wave motion indices were V1 and M1 at P2-5, with V1 continuing to have the highest index at P8-9 and then dropping to mean motion idx level similar to other cortical regions at P12-13. The diameter of domain activation became larger among cortical regions during the second postnatal week including the S1-limb/body regions where at P13 a small subpopulation of events had mean diameters approaching that of the entire hemisphere and a higher wave motion index (Fig. 2d-f) (x% of all events, ~2/10min) [Supplementary Movie 2](../wholeBrain_blob/ackmanWholeBrainImaging-lo.mov) (Fig. 2d). These global population events synchronized activity across cortical areas and had centers of mass that were concentrated near the middle of each hemisphere in the S1-limb/body area.
 
 
-![ **Figure 2.** Spatiotemporal characteristics of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection color maps of waves in visual cortex and motor cortex at P5. **d** Time projection color maps of interareal activations at P13. **e** Scatterplots of wave motion index as function of domain diameter. **f** Mean wave motion index over development.](figure2.png)
+![ **Figure 2.** Spatiotemporal characteristics of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection maps of waves in visual cortex and motor cortex at P5. **d** Time projection maps of interareal activations at P13. **e** Scatterplots of wave motion index as function of domain diameter. **f** Mean wave motion index over development.](figure2.png)
 
 
 
@@ -58,7 +58,7 @@ Next we assessed mesoscale cortical activity patterns as a function of physiolog
 
 We monitored motor movements simultaneously with cortical activity during our fMOI recordings to gain insight into the relationship between motor behavior output to cerebral cortical dynamics during development. The highest levels of synchronized cortical domain activity occurred during periods of relatively sparse motor behavior whereas the lowest levels of synchronized cortical activity occurred during periods of increased motor movement (Fig. 3c-e). Variation in the strength of correlation between cortical areas and the motor movement signal depended on both brain region (p < 2.2e-16, anova) and age (p = 1.627e-05, anova) (Fig 3c-f). Interestingly, the first age group in which motor cortex exhibited signficant positive correlation with motor movements was at P12-13 (r=0.06±0.02, p-value = 0.001449, t-test) (Fig. 3f).
 
-![ **Figure 3**. Cortical domains are state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor activity. **b** Cortical activity (active fraction) in each hemisphere after onset of gas anesthetic. **c** Cortical activity and coincident motor activity signals. Gray shading indicates active and quiet motor periods determined by the half-rise and decay times from peak in the low pass filtered motor signal. Active pixel fraction traces for motor (M1,M2), somatosensory (HL,FL,T; barrel), and visual (V1,V2) cortex shown at bottom of panel. Red links show synchronized motor movements and brain activity with different cortical regions. **d** Single frame domain masks for times indicated in **c**. **e** Pixel activation frequency maps during quiet and active motor periods. **f** Cross-correlation functions between cortical regions and motor movement signals. Notice the general weak correlation between motor movement and all cortical activity signals (r = , p = ) and the high positive correlation between motor movement and S1-limb/body signals (r = 0.3019, p < 2.2e-16).](figure3.png)
+![ **Figure 3**. Cortical domain activity is state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor movements. **b** Cortical activity (active pixel fraction by hemisphere) and motor movement signal after onset of isoflurane anesthesia at 205 s. **c** Time projection maps (40 s segments) at times indicated in recording from **b**. **d** Cortical activity and coincident motor activity signals. Gray shading indicates active and quiet motor periods determined by the half-rise and decay times from peak in the low pass filtered motor signal. Active pixel fraction traces for motor (M1,M2), somatosensory (HL,FL,T; barrel), and visual (V1,V2) cortex shown at bottom of panel. Red links show synchronized motor movements and brain activity with different cortical regions. **e** Single frame domain masks for times indicated in **d**. **f** Pixel activation frequency maps during quiet and active motor periods. **g** Cross-correlation functions between cortical regions and motor movement signals. Notice the general weak correlation between motor movement and all cortical activity signals (r = , p = ) and the high positive correlation between motor movement and S1-limb/body signals (r = 0.3019, p < 2.2e-16).](figure3.png)
 
 
 ## Cortical activity is mirrored between the hemispheres
@@ -125,6 +125,8 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 <!--Figure 1 metadata
 * neonate_ms_fig.png
 * binary masks: Screen_Shot_2013-03-29_at_12.06.25_PM_crop.png, ..._crop1.png, ..._crop2.png
+* 133.6s timeColorMap projection:  120518_07-fr698-1365-20140710-222230.tif
+* Segmentation mask of 133.6s timeColorMap projection:  120518_07-fr698-1365-20140715-230320-cadj.png
 * parcellation map
 	* update 2013-10-03 11:07:29: 
 		* 120518_07_2013-09-11-225029_d2rImageCoords20130930-144657.ai
@@ -134,17 +136,25 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 				* 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2r_20130930-124950_eps.png
     * [x] add a domain centroid size/duration map similar to: ![](../figures/Screen_Shot_2013-04-03_at_8.42.49_AM.png)
         * ![](../figures/Screen_Shot_2013-04-03_at_10.04.36_AM.png)
-* domainFreq map: 
+* domainFreq map: 20140613-084032_ActivityMapFigRawProj-domainFreqRdBu.eps, P5mapDomainFreq-crop.tif, P8mapDomainFreq-crop.tif, P13mapDomainFreq-crop.tif
     * domainFreq boxplot: 
-* domainDur map: 20140613-082954_ActivityMapFigRawProj-domainDurRdBu.eps
+* domainDur map: 20140613-082954_ActivityMapFigRawProj-domainDurRdBu.eps, P5mapDur-crop.tif, P8mapDur-crop.tif, P13mapDur-crop.tif
     * domainDur cdf: 
+* domainDiam map:  20140613-083156_ActivityMapFigRawProj-domainDiamRdBu.eps, P5mapDiam-crop.tif, P8mapDiam-crop.tif, P13mapDiam-crop.tif
 -->
 
-<!-- Figure 2 metadata 
+<!-- Figure 2 metadata
+* Scatterplot mean freq:  140704-143614-freq_min-scatter.pdf
+* Scatterplot domain duration-diameter timeline:  140702-141423-durDiam-scatter-img.pdf
+* P5 wave time projection: 140328_10-fr2016-2153-20140710-092344.tif
+* wave motion index scatter:  140702-152109-rhoDiam-scatter.png
+* Wave motion index timeline:  140702-162029-waveMotionIdx-jitterTimeline.pdf 
 -->
 
 <!--Figure 3 metadata 
-* Isoflurane traces:  
+* P8 isoflurane active px fraction and motor movement signal traces:  140331_11_20140425-171130_d2ractvFraction20140425-171354-20140425-171355.ai
+
+* P8 isoflurane time color projection sequence:  140331_11-fr775-975-20140710-163609.tif, 140331_11-fr1800-2000-20140710-162448.tif, 140331_11-fr2800-3000-20140710-162206.tif
 
 * Cortical and photodiode signals and moving averages color coded at diff lags:  120518_07_2013-09-11-225029_d2r_motorSignalFiltFilt_fig.eps
 
