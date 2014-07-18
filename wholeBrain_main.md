@@ -48,7 +48,7 @@ We examined how the spatiotemporal properties of cortical domains vary among dif
 Cortical domain frequency among different regions scaled as a function of net cortical area and this association became stronger during the course of development (Fig. 2a). The most frequently cortical regions at each age group when normalized to the amount of total amount of cortical space was the limb/trunk representations in somatosensory cortex (Fig. 1i, Supplementary Fig.). Generally, the frequency of activity was remarkably uniform across cortical areas at each age of development (Supplementary Fig) indicating a homeostatic mechanism regulating global activity levels. The long tails in the domain duration and diameter distributions at P2-5 and P8-9 (Fig. 1f,h) were dominated by retinal wave driven cortical activity in V1 that lasted on the order of seconds to tens of seconds (Fig. 1e, Fig. 2b,c), but also by long lasting wave-like activations occurring in motor cortex (Fig. 1e, Fig. 2b,c). Indeed the cortical regions with the highest wave motion indices were V1 and M1 at P2-5, with V1 continuing to have the highest index at P8-9 and then dropping to mean motion idx level similar to other cortical regions at P12-13. The diameter of domain activation became larger among cortical regions during the second postnatal week including the S1-limb/body regions where at P13 a small subpopulation of events had mean diameters approaching that of the entire hemisphere and a higher wave motion index (Fig. 2d-f) (x% of all events, ~2/10min) [Supplementary Movie 2](../wholeBrain_blob/ackmanWholeBrainImaging-lo.mov) (Fig. 2d). These global population events synchronized activity across cortical areas and had centers of mass that were concentrated near the middle of each hemisphere in the S1-limb/body area.
 
 
-![ **Figure 2.** Spatiotemporal characteristics of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection maps of waves in visual cortex and motor cortex at P5. **d** Time projection maps of interareal activations at P13. **e** Scatterplots of wave motion index as function of domain diameter. **f** Mean wave motion index over development.](figure2.png)
+![ **Figure 2.** Spatiotemporal characteristics of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection maps of waves in motor cortex at P3, visual cortex at P5, and occipital-parietal-frontal cortex at P13. **d** Scatterplots of wave motion index as function of domain diameter. **e** Mean wave motion index over development.](figure2.png)
 
 
 
@@ -146,7 +146,9 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 <!-- Figure 2 metadata
 * Scatterplot mean freq:  140704-143614-freq_min-scatter.pdf
 * Scatterplot domain duration-diameter timeline:  140702-141423-durDiam-scatter-img.pdf
-* P5 wave time projection: 140328_10-fr2016-2153-20140710-092344.tif
+* P3 M1 wave time projection, lomag:  140218_13-fr2564-2601-20140716-144024.tif
+* P5 V1 wave time projection, himag: 140328_10-fr2016-2153-20140710-092344.tif
+* P13 global wave time projection, lomag:  140509_07-fr1725-2004-20140717-172658.tif
 * wave motion index scatter:  140702-152109-rhoDiam-scatter.png
 * Wave motion index timeline:  140702-162029-waveMotionIdx-jitterTimeline.pdf 
 -->
