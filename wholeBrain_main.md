@@ -41,14 +41,14 @@ The neocortex exhibits a characteristic modular organization across the cortical
 | Notes: Values are reported as medians (median absolute deviation) ||||
 [ **Table 1: Domain statistics**]
 
-## Domain activity dynamics varies among cortical regions
+## Dynamics of domain activity differs among cortical regions
 
 We examined how the spatiotemporal properties of cortical domains vary among different cortical regions by parcellating the brain into distinct anatomical boundaries using reference coordinates from a mouse line that expressed a tdtomato reporter in thalamocortical afferents at P7 (Fig. 1c,d) (Supplementary Fig.). Patterns of thalamocortical axon terminals can be used to map out areal boundaries of primary sensory cortical areas [wong riley 1979]. We aligned these parcellations to the Allen brain mouse atlas and then scaled the cortical area reference coordinates to match activity maps from each animal containing functional boundaries for barrel cortex and visual cortex where spontaneous retinal waves functionally map out developing visual areas [#Ackman:2012]  (Fig. 1c-e,g,i). 
 
 Cortical domain frequency among different regions scaled as a function of net cortical area and this association became stronger during the course of development (Fig. 2a). The most frequently active cortical regions at each age group when normalized to the amount of total amount of cortical space was the limb/trunk representations in somatosensory cortex (Fig. 1i, Supplementary Fig.). Generally, the frequency of activity was remarkably uniform across cortical areas at each age of development (Supplementary Fig) indicating a homeostatic regulation of global activity levels. The long tails in the domain duration and diameter distributions at P2-5 and P8-9 (Fig. 1f,h) were dominated by retinal wave driven cortical activity in V1 that lasted on the order of seconds to tens of seconds (Fig. 1e, Fig. 2b,c), but also by long lasting wave-like activations occurring in motor cortex (Fig. 1e, Fig. 2b,c). Indeed the cortical regions with the highest wave motion indices were V1 and M1 at P2-5, with V1 continuing to have the highest index at P8-9 and then dropping to mean motion idx level similar to other cortical regions at P12-13. The diameter of domain activation became larger among cortical regions during the second postnatal week including the S1-limb/body regions where at P13 a small subpopulation of events had mean diameters approaching that of the entire hemisphere and a higher wave motion index (Fig. 2d-f) (x% of all events, ~2/10min) [Supplementary Movie 3](../wholeBrain_blob/supplementaryMovie-P13gcamp6.mov) (Fig. 2d). These global population events synchronized activity across cortical areas and had centers of mass that were concentrated near the middle of each hemisphere in the S1-limb/body area.
 
 
-![ **Figure 2.** Spatiotemporal characteristics of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection maps of waves in motor cortex at P3, visual cortex at P5, and occipital-parietal-frontal cortex at P13. **d** Scatterplots of wave motion index as function of domain diameter. **e** Mean wave motion index over development.](figure2.png)
+![ **Figure 2.** Spatiotemporal properties of cortical domains. **a** Domain frequency as function of cortical area size. **b** Scatterplots of domain diameter and duration. **c** Time projection maps of waves in motor cortex at P3, visual cortex at P5, and occipital-parietal-frontal cortex at P13. **d** Scatterplots of wave motion index as function of domain diameter. **e** Mean wave motion index over development.](figure2.png)
 
 
 
@@ -56,12 +56,12 @@ Cortical domain frequency among different regions scaled as a function of net co
 
 Next we assessed mesoscale cortical activity patterns as a function of physiological state and motor behavior. It has previously been demonstrated that general anesthesia abolishes spontaneous retinal wave activity in visual system [#Ackman:2012]. We found that during anesthesia induction, there is rapid (<60 s) knock down of cortical activity (Supplementary Movie) (Supplementary Fig) at all ages. While in neonates, no cortical activity was found during general anesthesia, at P12-13 within ~10-20min after general induction we found altered spontaneous patterns, with short duration, large diameter population activities synchronizing multiple cortical regions. (Supplementary Movie)
 
-We monitored motor movements simultaneously with cortical activity during our fMOI recordings to gain insight into the relationship between motor behavior output to cerebral cortical dynamics during development. The highest levels of synchronized cortical domain activity occurred during periods of relatively sparse motor behavior whereas the lowest levels of synchronized cortical activity occurred during periods of increased motor movement (Fig. 3c-e). Variation in the strength of correlation between cortical areas and the motor movement signal depended on both brain region (p < 2.2e-16, anova) and age (p = 1.627e-05, anova) (Fig 3c-f). Interestingly, the first age group in which motor cortex exhibited signficant positive correlation with motor movements was at P12-13 (r=0.06±0.02, p-value = 0.001449, t-test) (Fig. 3f).
+We monitored motor movements simultaneously with cortical activity during our fMOI recordings to gain insight into the relationship between motor behavior output to cerebral cortical dynamics during development. The highest levels of synchronized cortical domain activity occurred during periods of relatively sparse motor behavior whereas the lowest levels of synchronized cortical activity occurred during periods of increased motor movement (Fig. 3c-e). Variation in the strength of correlation between cortical areas and the motor movement signal depended on both brain region (p < 2.2e-16, anova) and age (p = 1.627e-05, anova) (Fig 3c-f). Interestingly, the first age group in which motor cortex exhibited signficant positive correlation with motor movements was at P12-13 (r=0.06±0.02, p-value = 0.001449, t-test) (Fig. 3f). We hypothesized that just before eye opening around P11-P13 there will be a shift with significant zero lag or preceding correlation between motor cortex and the motor movement signals perhaps conincciding with teh begining fo ggoal directed behavior. Motor and state dependent behavior surprisingly complex, even in neonates.
 
 ![ **Figure 3**. Cortical domain activity is state dependent. **a** Experimental schematic. Red light illumination measured with a photodiode (PD) was used to monitor motor movements. **b** Cortical activity (active pixel fraction by hemisphere) and motor movement signal after onset of isoflurane anesthesia at 205 s. **c** Time projection maps (40 s segments) at times indicated in recording from **b**. **d** Cortical activity and coincident motor activity signals. Gray shading indicates active and quiet motor periods determined by the half-rise and decay times from peak in the low pass filtered motor signal. Active pixel fraction traces for motor (M1,M2), somatosensory (HL,FL,T; barrel), and visual (V1,V2) cortex shown at bottom of panel. Red links show synchronized motor movements and brain activity with different cortical regions. **e** Single frame domain masks for times indicated in **d**. **f** Pixel activation frequency maps during quiet and active motor periods. **g** Cross-correlation functions between cortical regions and motor movement signals. Notice the general weak correlation between motor movement and all cortical activity signals (r = , p = ) and the high positive correlation between motor movement and S1-limb/body signals (r = 0.3019, p < 2.2e-16).](figure3.png)
 
 
-## Cortical activity is mirrored between the hemispheres
+## Cortical activity comprises distinct subnetworks
 
 * Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
 * olavarria work, evidence for inter hemispheric activity dependence
@@ -69,20 +69,15 @@ We monitored motor movements simultaneously with cortical activity during our fM
 
 To understand the patterns and how they interact we first looked at correlation between the hemispheres. Cortical activity exhibited high temporal correlation between the hemispheres () . In additon this activity was highly correlated in the spatial dimension.  We found that activity was correlated in anterior-posterior and medial-lateral directions. It exhibited mirror symmetric and non-mirror symmetric patterns. For example epochs of time would exhibit high correlation in the medial-lateral dimension or in the rostral-caudal dimension. This strength of correlation temporally and spatially increased between the hemsipheres with a function of age.
 
-<!-- * Each hemisphere 'training' the other one in preparation for behaviorally relevant sensory-motor imitations '[[mirror_neurons]]' hypothesis? -->
-
-![ **Figure 4.** Cortical domain activity exhibits bilateral symmetry. **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).](figure4.png)
-
-
-
-## Developing cortical activity consists of distinct subnetworks
 
 We then calculated a matrix of pearsons correlation coefficients based on the pixel active fraction timecourses for each pair of parcellations. The resulting assocaition matrix was run through a hierarchical clustering algorithm to reveal functional modules of of activation. These functional modules typically consisted of 3 distinct subnetworks-- a frontal motor network, a posterior parietal network, a S1-body/limb network, and an auditory A1 network at P12.
 
 We found many similarities but some striking differences as a function of age.
 
+![ **Figure 4.** Functional architecture of developing neocortex. **a** Group averaged correlation matrices of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. Dendrogram and node order from community structure detected with hierarchical clustering in the P12-13 group. **b** Map of cortical area associations for r > 0.15. Node colors represent cortical communities detected with clustering within each age group. Link width indicates the squared connection strength (r^2). Note both similarities in module membership and increased connection strengh with age.](figure4.png)
 
-![ **Figure 5.** Subnetworks in developing neocortex. **a** Correlation matrix of domain activity among cortical areas. Colormap indicates Pearson's r correlation coefficient values. **b** Graph of functional connections for r > 0.15. Community structure detected with hierarchical clustering are indicated in 4 colors. Notice that S1-limb/body regions form a distinct subgraph (red). **c** Map of cortical area associations for r > 0.1.](figure5.png)
+
+![ **Figure 5.** Dynamics of functional connectivity in developing neocortex. **a** Graph of functional connections for r > 0.15. Node colors represent cortical communities detected with clustering within each age group. **b** Boxplots of degree (number of links) and node strength (sum of connection weights) by cortical area. The distributions become increasingly ordered like the P12-13 group with age. **c** Boxplots of clustering coefficient and average path length by recording. **d** Scatterplots of mean network centrality scores by cortical area.](figure5.png)
 
 
 
@@ -171,29 +166,23 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 -->
 
 <!--Figure 4 metadata
-* binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
-    * Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
-    * Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
-    * Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
-    * Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
-    * Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
-* Temporal correlation of activity between the hemispheres and preceding motor activation:  
-    * ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
-* hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
-* activefraction hemis AP and ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
-* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
-* activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
-### Cortical activity correlated between the hemispheres and is periodic
-* hemi auto and xcorr:
-    * 2500fr lags: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
-    * 250fr lags:  120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
-    * 1500fr lags: 120518_07_2013-10-18_AllgoodactiveFraction20131023-145023.eps
+ * corr matrix: MeanCorrMatrix-age-2014-06-02.ai, (140602-113013-age.g-groupCorrMatrix.pdf, 140602-112947-dendr-ageP12-13.pdf)
+* 140808-093608-graph-squaredEdgeScale-auto.pdf
+~~* corr graph spatial layout: 140602-100049-P12-13_0.15.pdf ~~
 -->
 
 <!--Figure 5 metadata
-* corr matrix: MeanCorrMatrix-age-2014-06-02.ai, (140602-113013-age.g-groupCorrMatrix.pdf, 140602-112947-dendr-ageP12-13.pdf)
-* corr graph force layout: 140602-101610-P12-13_0.15.pdf
-* corr graph spatial layout: 140602-100049-P12-13_0.15.pdf
+* 140807-121720-graph-squaredEdgeScale.pdf
+~~* corr graph force layout: 140602-101610-P12-13_0.15.pdf~~
+
+~~140806-174912-modularity-boxplot.pdf~~
+~~140806-174917-diam-boxplot.pdf~~
+140806-174920-clusterCoeffGlobal-boxplot.pdf
+140806-174915-pathLength-boxplot.pdf
+
+* 140804-111208-eigCentr-scatterplot.pdf, r>0.15
+~~* 140804-075217-degree-hist.pdf, binwidth=2, r>0.15~~
+
 -->
 
 
@@ -219,4 +208,28 @@ Anesthetized Rx-Cre:GCaMP3 or SNAP25-GCaMP6 mice between postnatal day 2 to 13 (
 * supplementaryFig-montage.ai:  
     * 140509_22-fr484-735-20140729-102651-montage.png, 140509_22-fr484-735-20140729-102651-montage.tif
 
+* supplementaryFig-corticaltracesCorr.ai:  
+    * P5:  140328_10_20140420-111218_d2rActvRaster20140420-111804.eps, 3000fr
+    * P8:  140331_05_20140425-160657_d2rActvRaster20140425-161244.eps, 3000fr
+    * P13: 140509_22_20140522-074327_d2rActvRaster20140522-075627.eps, 3000fr
+
+
+* supplementaryFig-symmetry.ai: 
+    * binary mask snapshots, cropped from screen shots in [[2013-04-19_analysis]]
+        * Screen_Shot_2013-04-19_at_8.26.00_AM_fr1786.png
+        * Screen_Shot_2013-04-19_at_8.27.49_AM_fr2134.png
+        * Screen_Shot_2013-04-19_at_8.30.27_AM_fr759.png
+        * Screen_Shot_2013-04-19_at_8.30.51_AM_fr373.png
+        * Screen_Shot_2013-04-19_at_8.38.54_AM_fr177.png
+    * Temporal correlation of activity between the hemispheres and preceding motor activation:  
+        * ![](../figures/Screen_Shot_2013-04-30_at_3.02.20_PM.png)
+    * hemisphere active fraction traces: Screen_Shot_2013-04-08_at_8.47.19_AM.png
+    * activefraction hemis AP and ML all: ![](../figures/Screen_Shot_2013-04-23_at_8.45.18_AM.png)  | 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022_d2ractiveFractionPixelLocaCorr20130423-094506.eps
+    * activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.46.27_AM.png)
+    * activefraction hemis AP and ML segment: ![](../figures/Screen_Shot_2013-04-23_at_8.51.55_AM.png)
+    ### Cortical activity correlated between the hemispheres and is periodic
+    * hemi auto and xcorr:
+        * 2500fr lags: 120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-143100.eps
+        * 250fr lags:  120518_07_connComponents_BkgndSubtr-60px_noWatershed-20130327-151022activeFraction20130408-151655.eps
+        * 1500fr lags: 120518_07_2013-10-18_AllgoodactiveFraction20131023-145023.eps
 -->
