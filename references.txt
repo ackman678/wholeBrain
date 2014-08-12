@@ -269,6 +269,8 @@ http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
 [#Kobayashi:1963]: Kobayashi, T. (1963).  Brain-to-body ratios and time of maturation of the mouse brain, Am J Physiol, 204(), 343-6
 
+[#Newman:2004]: Newman, M. E. J. (2004).  Fast algorithm for detecting community structure in networks, Phys. Rev. E, 69(), 066133
 
+[#Bullmore:2009]: Bullmore, E. and Sporns, O. (2009).  Complex brain networks: graph theoretical analysis of structural and functional systems, Nat Rev Neurosci, 10(3), 186-98
 
 
