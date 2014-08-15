@@ -273,4 +273,5 @@ http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
 [#Bullmore:2009]: Bullmore, E. and Sporns, O. (2009).  Complex brain networks: graph theoretical analysis of structural and functional systems, Nat Rev Neurosci, 10(3), 186-98
 
+[#Ackman:2014]: Ackman, J. B. and Crair, M. C. (2014).  Role of emergent neural activity in visual map development, Curr Opin Neurobiol, 24C(), 166-175
 
