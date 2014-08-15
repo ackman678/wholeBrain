@@ -116,6 +116,8 @@
 
 [#Espinosa:2012]: Espinosa, J. S. and Stryker, M. P. (2012).  Development and plasticity of the primary visual cortex, Neuron, 75(2), 230-49
 
+[#Sanes:1999]: Sanes, J. R. and Lichtman, J. W. (1999).  Development of the vertebrate neuromuscular junction, Annu Rev Neurosci, 22(), 389-442
+
 [#Marder:2005]: Marder, E. and Rehm, K. J. (2005).  Development of central pattern generating circuits, Curr Opin Neurobiol, 15(1), 86-93
 
 [#Mazzoni:2007]: Mazzoni, A., Broccard, F. D., Garcia-Perez, E., Bonifazi, P., Ruaro, M. E., and Torre, V. (2007).  On the dynamics of the spontaneous activity in neuronal networks, PLoS ONE, 2(), e439
@@ -212,8 +214,9 @@
 
 [#Laing:2012]: Laing, R. J., Bock, A. S., Lasiene, J., and Olavarria, J. F. (2012).  Role of retinal input on the development of striate-extrastriate patterns of connections in the rat, J Comp Neurol, 520(14), 3256-76
 
+[#Petersson:2003]: Petersson, P., Waldenström, A., Fåhraeus, C., and Schouenborg, J. (2003).  Spontaneous muscle twitches during sleep guide spinal self-organization, Nature, 424(6944), 72-5
 
-
+[#Mohns:2008]: Mohns, E. J. and Blumberg, M. S. (2008).  Synchronous bursts of neuronal activity in the developing hippocampus: modulation by active sleep and association with emerging gamma and theta rhythms, J Neurosci, 28(40), 10134-44
 
 
 
@@ -266,6 +269,9 @@ http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
 [#Kobayashi:1963]: Kobayashi, T. (1963).  Brain-to-body ratios and time of maturation of the mouse brain, Am J Physiol, 204(), 343-6
 
+[#Newman:2004]: Newman, M. E. J. (2004).  Fast algorithm for detecting community structure in networks, Phys. Rev. E, 69(), 066133
 
+[#Bullmore:2009]: Bullmore, E. and Sporns, O. (2009).  Complex brain networks: graph theoretical analysis of structural and functional systems, Nat Rev Neurosci, 10(3), 186-98
 
+[#Ackman:2014]: Ackman, J. B. and Crair, M. C. (2014).  Role of emergent neural activity in visual map development, Curr Opin Neurobiol, 24C(), 166-175
 

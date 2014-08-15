@@ -1,3 +1,6 @@
 ## Supplementary Figure Legends
 
 **Supplmentary Figure 1.** **Subnetworks in developing isocortex.** **a** Areal trace examples. Synchronized activations between hemispheres indicated by red links. 
+
+
+**supplementaryFig-symmetry.ai** **Cortical domain activity exhibits bilateral symmetry.** **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).
