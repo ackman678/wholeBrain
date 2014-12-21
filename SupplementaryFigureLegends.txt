@@ -1,6 +1,15 @@
 ## Supplementary Figure Legends
 
-**Supplmentary Figure 1.** **Subnetworks in developing isocortex.** **a** Areal trace examples. Synchronized activations between hemispheres indicated by red links. 
+Supplementary Figure 1. Functional parcellation of developing neocortex. a, Image of tdtomato mouse brain at P7. Notice primary sensory areas outlined. b, Overlay of parcellations with Allen Brain atlas. c, Colored time projection of spontaneous activity in barrel cortex. d, Colored time projection overlay of functional mapping of somatosensory cortex with tactile stimulation.   
+
+Supplementary Figure 2. Spatiotemporal properties of cortical domains. a, Boxplot distributions of cortical domain frequency by region. b, Relative cortical domain frequency, normalized to area. c, Mean and max signal intensity by cortical region.  
+
+Extended Data Figure 3. Cortical domain activity exhibits bilateral symmetry. a Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. b Cortical active fraction timecourses for both hemispheres. c Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, r = 0.3241, p = 1.1591e-28; AP, r = 0.1479, p = 7.0982e-07. d Example temporal autocorrelation and cross-correlation functions for hemispheric cortical activity. Notice the peaks above gaussian distributed noise (blue traces). e Boxplots  showing distribution of spatial and temporal correlation between the cortical hemispheres (P2–5, N = 22; P8–9, N = 30; P12–13, N = 38 movies).
 
 
-**supplementaryFig-symmetry.ai** **Cortical domain activity exhibits bilateral symmetry.** **a** Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. **b** Cortical active fraction timecourses for both hemispheres. **c** Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. **d** Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).
+
+Supplementary Figure 4. Cortical domain activity exhibits bilateral symmetry. a Examples of domains exhibiting spatially symmetric activations. Notice most timepoints contain a mixture of symmetric and asymmetric domain activations. b Cortical active fraction timecourses for both hemispheres. c Hemispheric domain centers of mass for coactive frames in a recording along medial-lateral (ML) and anterior-posterior (AP) extents. Bottom left panels show the periods indicated by black bars at expanded view. Pearson's correlation: ML, p = 1.1591e-28; AP, p = 7.0982e-07. d Hemispheric autocorrelation and cross-correlation functions for cortical activity at all and short time lags. Notice the peaks above gaussian distributed noise (blue traces).
+
+
+
+Supplementary Figure x. Cortical activity and physiological state. a, Active fraction rasters of cortical aactivity during isoflurane anesthesia at different ages. b, Pixel frequency maps during quiet and activty motor periods.
