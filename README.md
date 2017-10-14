@@ -2,7 +2,7 @@
 
 The goal of this work is to provide a broad description of the population activity patterns that occur in developing cerebral cortex.
 
-The main manuscript file is **[wholeBrain_main.md][]**
+The main manuscript file is **[wholeBrain_main.md](wholeBrain_main.md)**
 
 
 
@@ -15,10 +15,10 @@ A comprehensive description of the spatiotemporal activity patterns in the immat
 Indeed one of the fundamental goals of the BRAIN Initiative funded by NIH, NSF, and DARPA is provide dynamic maps of the brains electrical activity at an intermediate scale that bridges the local and global assessments garnered through current technologies in animals and humans. [NIH BRAIN working group interim report](http://acd.od.nih.gov/ACD-BRAIN-Working-Group-Report.pdf)
 
 * signature patterns that predict current or future behavior
-* construction of self-organizing circuits (advanced robotics -- *Terminators, Skynet, & Cylons!*)
+* construction of self-organizing circuits
 
 ### Human health importance
-* neurodevelopmental disorders (autism, schizophrenia, epilepsy)
+* neurodevelopmental disorders (e.g. autism, schizophrenia, epilepsy)
 * activity-dependent structural plasticity. Implications for brain repair.
 * development of brain-machine interfaces
 
@@ -48,7 +48,7 @@ monkey and human                       | EEG performed prenatally [#Vanhatalo:20
 More detailed descriptions of the nature and the functions of these activity patterns can and should be performed in parallel in ongoing and future studies.  
 For example:  
  
-* What is the intra- vs sub- cortical nature of barrel cortex activity (E.M.'s work)
+* What is the intra- vs sub- cortical nature of sensory cortex activity?
 * What is the intra- vs sub- cortical nature of ongoing activity in motor- associational-, and other non-primary sensory cortical areas?
 * Relationship of imaged patterns to EEG patterns described in other studies?
 * Extent to which functional correlations reflect direct synaptic connections?
@@ -58,72 +58,6 @@ For example:
 * Chronic developmental profile in individuals?
 * Aberrant activity patterns in developmental disorder and seizure models?
 
-
-## Outline
-
-### Intro or conclusion stuff 
-
-- Neural activity, drugs, and birth defects
-	- epilepsy
-	- autism
-- What is the activity?
-     - instructive or permissive?
-     - leinekukel and khazipov work [#Leinekugel:2002][#Khazipov:2004a]
-     - ucla konnerth imaging work [#Golshani:2009][#Adelsberger:2005]
-     - human occipital cortex and retinal wave paper [#Vanhatalo:2005][#Tolonen:2007][#Ackman:2012]
-     - To understand the informational capacity of neural activty in the developing brain, the structural dynamics of persistent activity must be understood. 
-     - completely random? Organized in space and time, and at what scale?
-     - previous work on interneuron migration, axon growth (olavarria work) synaptic formation, and anatomical studies indicates significant development decisions are being made in first postnatal week
-
-
-### Ongoing activity in developing isocortex is characterized by discrete domains
-
-* Cortical column (mini/meso/super columns) history (20th century anatomists-- sherrington, valverde, rakic, etc). 
-* Column physiology-- Hubel and Wiesel. Rodent V1?
-* Developmental studies-- fetal monkey ODCs. 
-* Rodent barrels (early anatomical emergence from TC input, functional/physiological emergence?). 
-	* What is known about columns/domains in secondary/association/non-primary sensory representations? Rest of rodent S1 (non-barrel cortex?). 
-* Calcium domains of Yuste, Science 1992 paper. [#Yuste:1992]
-* Other slice calcium recordings, patch/gap junctions. In vivo physiology? (Not too many multisite electrode recordings in cortex, spatial resolution issue). 
-* Calcium imaging-- Konnerth 'waves' in Ent cortex [#Adelsberger:2005]. For visual cortex, domains activity in extrastriate cortex (Ackman Nature 2012). But S1-- [#Golshani:2009] work in later postnatal-- but activity not obeying domains in barrel cortex-- problem with spatial sampling in the xy and the z for this study?
-
-### Cortical activity is mirrored between the hemispheres
-
-* Inter hemispheric functional connectivity, importance for autism, schizophrenia. Maybe an activity-dependent mechanism for commisural connectivity.
-* olavarria work, evidence for inter hemispheric activity dependence
-* [#Hanganu:2006], 30% of spindle bursts correlated across hemispheres
-* Activity correlated in anterior-posterior and medial-lateral directions
-* Mirror symmetric and non-mirror symmetric patterns
-* Regional effects, more corr anticorr in certain regions?
-* State dependent corr?
-
-### Cortical domain activity is state dependent
-
-* EEG slow oscillations not detectable until P10 in rodent.
-* Previously demonstrated that general anesthesia abolishes spontaneous activity in visual system [#Ackman:2012]. 
-* What about ongoing activity in other cortical areas during early brain development? Surgical procedure relevance.
-* No population calcium activity found during gen'l anesthesia, only slow traveling waves.
-* During anesthesia induction, rapid (<30 s) knock down of discrete domain activity (P3 mouse <120518_09.tif>). Cingulate, retrosplenial activations the last to go-- default mode/resting state network areas last.
-<120518_09_mjpeg.mov>
-
-### Conclusions
-
-* **Ongoing activity in developing cortex is not random**-- specifically coordinated in space and time within and among cortical areas between the hemispheres
-* BRAIN initiative
-	- this work aids at least a couple of the 9 preliminary aims of the Brain project
-* template for assessing altered functional dynamics in models for neurological disorders
-
-
-
-## Workflow
-
-Writing workflow will be similar to that used previously for [current opinion review][id3]. Some useful info in [currOpinRvw outline][id2].
-
-Instructions for [converting multimarkdown to Word document][id4]
-
-Image processing and dataset generation will utilize custom code in the [wholeBrainDX] software project. 
-
-Datasets and R code for exploratory data analysis and graphics will live inside this wholeBrain project repository. Datasets and raw data too big to be inside this git repo will be stored on external servers and linked to accordingly.
 
 
 [wholeBrain_main.md]: wholeBrain_main.md
@@ -136,4 +70,4 @@ Datasets and R code for exploratory data analysis and graphics will live inside 
 
 [wholeBrainDX]: https://github.com/ackman678/wholeBrainDX/blob/master/README.md  
 
-<<[references.txt]
+<<[references.txt](references.md)
