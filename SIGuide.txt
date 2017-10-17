@@ -1,11 +1,17 @@
-## Supplementary Figures
-This file contains Supplementary Figures 1- with legends (pdf; x MB)
-
 ## Supplementary Movie 1
-The movie shows an example of transcranial cortical activity patterns in Rx-Cre:GCaMP3 mice imaged at P3. Movie is a 60 s long recording played back at 6x (30 fps) as dF/F. Field of view is 6 mm x 8 mm (Quicktime; 4.5 MB).
+The movie shows an example of typical transcranial cortical activity patterns during the first postnatal week (SNAP25-GCaMP6 mouse imaged at P5). Movie is 36 s total recording time played back at 6x (30 fps) as dF/F. Forelimb and snout movements are visible in the upper portion of the field of view, which is 11 mm x 13 mm (MPEG-4; 5.8 MB).
 
 ## Supplementary Movie 2
-The movie shows an example of transcranial cortical activity patterns in Rx-Cre:GCaMP3 mice imaged at P8. Movie is a 36.8 s long recording played back at 6x (30 fps) as dF/F. Field of view is 10 mm x 12 mm (Quicktime; 5 MB).
+The movie shows an example of typical transcranial cortical activity patterns during the beginning of the second postnatal week (SNAP25-GcaMP6 mouse imaged at P8). Movie is 36 s total recording time played back at 6x (30 fps) as dF/F. Forelimb and snout movements are visible in the upper portion of the field of view, which is 11 mm x 13 mm (MPEG-4; 8.9 MB).
 
 ## Supplementary Movie 3
-The movie shows an example of transcranial cortical activity patterns in SNAP25:GCaMP6 mice imaged at P13. Movie is a 50.2 s long recording played back at 6x (30 fps) as dF/F. Field of view is 20 mm x 24 mm (Quicktime; 5.3 MB).
+The movie shows an example of typical transcranial cortical activity patterns at the end of the second postnatal week (SNAP25-GCaMP6 mouse imaged at P12). Movie is 36 s total recording time played back at 6x (30 fps) as dF/F. Forelimb and snout movements are visible in the upper portion of the field of view, which is 14 mm x 17 mm (MPEG-4; 9.1 MB).
+
+## Supplementary Movie 4
+The movie shows an example of a slow, wave-like, infrequently occurring, global cortical activation at the end of the second postnatal week (SNAP25-GCaMP6 mouse). The global activation shifts caudally to rostrally and ceases halfway through the movie (during motor twitches of limbs and face), followed by more typical ongoing cortical activity patterns. Movie is 50.2 s total recording time played back at 6x (30 fps) as dF/F mouse. Field of view is 20 mm x 24 mm (MPEG-4; 12.9 MB).
+
+## Supplementary Movie 5
+The movie shows an example of transcranial cortical activity patterns at P8 before and after 2.5% isoflurane anesthesia induction (SNAP25-GCaMP6 mouse). Movie is 249 s total recording time played back at 6x (30 fps) as dF/F. Field of view is 20 mm x 24 mm. (MPEG-4; 23.5 MB).
+
+## Supplementary Movie 6
+The movie shows an example of transcranial cortical activity patterns at P13 before and after 2.5% isoflurane anesthesia induction (SNAP25-GCaMP6 mouse). Movie is 249 s total recording time played back at 6x (30 fps) as dF/F. Field of view is 20 mm x 24 mm. (MPEG-4; 23.7 MB).
